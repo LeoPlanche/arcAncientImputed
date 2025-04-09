@@ -31,15 +31,12 @@ def main():
     help='Name of the reference individual.',
     )   
 
-    similarity_subparser.add_argument("-out",help="outputfile (defaults to stdout)",type=str,required = True )
-
-
     args = parser.parse_args()
 
     if args.mode == 'create_map':
         createMap(args.decode, args.out)
     elif args.mode == 'similarity':
-        computeSimilarities(args.decode, args.mapped_individual, args.reference_individual, args.name_reference, args.out)
+        computeSimilarities(args.decode, args.mapped_individual, args.reference_individual, args.name_reference)
 
 if __name__ == "__main__":
     main()

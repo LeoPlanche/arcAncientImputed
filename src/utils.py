@@ -5,7 +5,7 @@ def createMap(decodePath, outPath):
     fou = open(outPath,'w')
     for filename in os.listdir(decodePath):
         file_path = os.path.join(decodePath, filename)
-        ind = (filename.split('.')[0]).split('-')[0]
+        ind = (filename.split('.')[-1]).split('-')[0]
         f = open(file_path,'r')
         firstLine = next(f)
         if os.stat(outPath).st_size == 0:
@@ -19,11 +19,13 @@ def createMap(decodePath, outPath):
     fou.close()
     f.close()
 
-def computeSimilarities(decodePath,mapped_individual,reference_individual,name_reference,out_path):
+def computeSimilarities(decodePath,mapped_individual,reference_individual,name_reference):
     for filename in os.listdir(decodePath):
+        print(filename)
         file_path = os.path.join(decodePath, filename)
         name_mapped= filename.split('.')[0]
         for vcf_reference_individual in reference_individual:
+            print(vcf_reference_individual)
             if mapped_individual.endswith('.gz'):    
                 f1 = gzip.open(mapped_individual, 'rt')
             else:
@@ -36,19 +38,15 @@ def computeSimilarities(decodePath,mapped_individual,reference_individual,name_r
                 f2 = open(vcf_reference_individual,'r')
 
 
-            outPathFull = f'{out_path}.{name_mapped}'
-            fou = open(outPathFull,'a')
-
-            map = open(file_path, 'r')
+            map =  open(file_path, 'r') 
+            processed_lines = []
             lineMap = next(map)
             slineMap = lineMap.split()
 
-            if os.stat(outPathFull).st_size == 0:
-                fou.write(lineMap[:-1])
-                if slineMap[-1] != f'similariry{name_reference}\n':
-                    fou.write(f'\tsimilariry{name_reference}\n')
-                else:
-                    fou.write('\n')
+            if slineMap[-1] != f'similarity{name_reference}\n':
+                processed_lines.append(f'{lineMap[:-1]}\tsimilarity{name_reference}\n')
+            else:
+                processed_lines.append(lineMap)
 
             line1=next(f1)
             while line1[1] == '#':
@@ -61,12 +59,12 @@ def computeSimilarities(decodePath,mapped_individual,reference_individual,name_r
             try:
                 index1 = sline1.index(name_mapped)
             except ValueError:
-                print("Name of the mapped individual is not in the vcf file.")
+                print(f'Name of the mapped individual ({name_mapped}) is not in the vcf file.')
             sline2 = line2.split()
             try:
                 index2 = sline2.index(name_reference)
             except ValueError:
-                print("Name of the reference individual is not in the vcf file.")
+                print(f'Name of the reference individual ({name_reference})is not in the vcf file.')
 
             match = 0
             total = 0
@@ -78,11 +76,11 @@ def computeSimilarities(decodePath,mapped_individual,reference_individual,name_r
                 chr = int(sline1[0])
                 try:
                     if int(sline1[1]) > int(slineMap[2]) and int(slineMap[0]) == chr and int(sline2[0]) ==  chr:
-                        fou.write(lineMap[:-1])
+                        currLine = lineMap[:-1]
                         if total>0:
-                            fou.write(f'\t{match/total:.4f}\n')
+                            processed_lines.append(f'{currLine}\t{match/total:.4f}\n') 
                         else:
-                            fou.write(f'\n')
+                            processed_lines.append(f'{currLine}\n') 
                         lineMap = next(map)
                         slineMap = lineMap.split()    
                         total=0
@@ -112,4 +110,10 @@ def computeSimilarities(decodePath,mapped_individual,reference_individual,name_r
                     except StopIteration:
                         # End of file reached
                         break
-            fou.close()
+            processed_lines.append(lineMap)
+            for lineMap in map:
+                processed_lines.append(lineMap)
+            with open(file_path, 'w') as outfile:
+                outfile.writelines(processed_lines)
+            f1.close()
+            f2.close()
