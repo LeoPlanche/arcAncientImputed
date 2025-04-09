@@ -154,7 +154,7 @@ for line1 in f1:
                 elif ancestral!=sline3[3]:
                     continue              
                 
-                #Compute allele frequency using GP, for all individuals in P3       
+                #Compute allele frequency using GP, for all individuals in P2       
                 for idx,elt in enumerate(sline2[9:]):
                     GP=(elt.split(sep=':')[2]).split(sep=',')               
                     p2=float(GP[2])+float(GP[1])/2
