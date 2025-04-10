@@ -11,6 +11,12 @@ After running DAIseg (or hmmix), in order to compute the similarity to the archa
 ./main.py similarity -decode <decode folder obtained after running DAIseg> -p1 <vcf containing the ancient samples>.vcf.gz -p2 <vcf(s) containing the archaic genome>.vcf.gz -n2 <name of the archaic sample>
 ```
 
+To compute the distance, using an outgroup:
+
+```
+./main.py similarity -decode <decode folder obtained after running DAIseg> -p1 <vcf containing the ancient samples>.vcf.gz -p2 <vcf(s) containing the archaic genome>.vcf.gz -n2 <name of the archaic sample> -p3 <vcf(s) containing the outgroup genome>.vcf.gz -n3 <name(s) of the outgroup sample(s)>.json
+```
+
 Then, to build the introgression map:
 
 ```
