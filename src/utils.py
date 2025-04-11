@@ -44,7 +44,7 @@ def computeSimilarities(decodePath,mapped_individual,reference_individual,name_r
             lineMap = next(map)
             slineMap = lineMap.split()
 
-            if slineMap[-1] != f'similarity{name_reference}\n':
+            if slineMap[-1] != f'similarity{name_reference}':
                 processed_lines.append(f'{lineMap[:-1]}\tsimilarity{name_reference}\n')
             else:
                 processed_lines.append(lineMap)
@@ -159,7 +159,7 @@ def computeDistances(decodePath,mapped_individual,reference_individual,name_refe
             lineMap = next(map)
             slineMap = lineMap.split()
 
-            if slineMap[-1] != f'distance{name_reference}\n':
+            if slineMap[-1] != f'distance{name_reference}':
                 processed_lines.append(f'{lineMap[:-1]}\tdistance{name_reference}\n')
             else:
                 processed_lines.append(lineMap)
@@ -228,6 +228,7 @@ def computeDistances(decodePath,mapped_individual,reference_individual,name_refe
                         total_outgroup = [0 for _ in range(len(index_outgroup))]
                     elif int(slineMap[0])<chr:
                         while int(slineMap[0])<chr:
+                            processed_lines.append(lineMap)
                             lineMap = next(map)
                             slineMap = lineMap.split() 
 
