@@ -88,6 +88,7 @@ def computeSimilarities(decodePath,mapped_individual,reference_individual,name_r
                         match=0
                     elif int(slineMap[0])<chr:
                         while int(slineMap[0])<chr:
+                            processed_lines.append(lineMap)
                             lineMap = next(map)
                             slineMap = lineMap.split() 
 
@@ -132,6 +133,7 @@ def computeDistances(decodePath,mapped_individual,reference_individual,name_refe
         return
 
     for filename in os.listdir(decodePath):
+        print(filename)
         file_path = os.path.join(decodePath, filename)
         name_mapped= filename.split('.')[0]
         for (vcf_reference_individual, vcf_outgroup) in zip(reference_individual, outgroup_individuals):
