@@ -137,6 +137,8 @@ def computeDistances(decodePath,mapped_individual,reference_individual,name_refe
         file_path = os.path.join(decodePath, filename)
         name_mapped= filename.split('.')[0]
         for (vcf_reference_individual, vcf_outgroup) in zip(reference_individual, outgroup_individuals):
+            print(vcf_reference_individual)
+            print(vcf_outgroup)
             if mapped_individual.endswith('.gz'):    
                 file_mapped = gzip.open(mapped_individual, 'rt')
             else:
