@@ -1,6 +1,7 @@
 import os
 import gzip
 import json
+import re
 
 def createMap(decodePath, outPath):
     fou = open(outPath,'w')
@@ -132,10 +133,14 @@ def computeDistances(decodePath,mapped_individual,reference_individual,name_refe
         print(f'File {names_outgroup} is not a json file.')
         return
 
+
     for filename in os.listdir(decodePath):
         print(filename)
         file_path = os.path.join(decodePath, filename)
         name_mapped= filename.split('.')[0]
+        reference_individual = sorted(reference_individual, key=extract_chromosome_from_name)
+        outgroup_individuals = sorted(outgroup_individuals, key=extract_chromosome_from_name)
+
         for (vcf_reference_individual, vcf_outgroup) in zip(reference_individual, outgroup_individuals):
             print(vcf_reference_individual)
             print(vcf_outgroup)
@@ -276,3 +281,9 @@ def computeDistances(decodePath,mapped_individual,reference_individual,name_refe
             file_mapped.close()
             file_reference.close()
             map.close()
+
+def extract_chromosome_from_name(s):
+    match = re.search(r'chr(\d+)', s)
+    if match:
+        return int(match.group(1))
+    return -1
