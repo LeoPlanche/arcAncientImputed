@@ -7,17 +7,15 @@ def createMap(decodePath, outPath):
     fou = open(outPath,'w')
     for filename in os.listdir(decodePath):
         file_path = os.path.join(decodePath, filename)
-        ind = (filename.split('.')[-1]).split('-')[0]
+        ind = (filename.split('.')[0]).split('-')[0]
         f = open(file_path,'r')
         firstLine = next(f)
         if os.stat(outPath).st_size == 0:
             fou.write(firstLine[:-1])
             fou.write('\tIndividual\n')
         for line in f:
-            sline = line.split()
-            if sline[4] == 'Neanderthal':
-                fou.write(line[:-1])
-                fou.write(f'\t{ind}\n')
+            fou.write(line[:-1])
+            fou.write(f'\t{ind}\n')
     fou.close()
     f.close()
 

@@ -4,6 +4,7 @@ import argparse
 import os
 from utils import createMap, computeSimilarities, computeDistances
 
+def main():
     parser = argparse.ArgumentParser()
     subparser = parser.add_subparsers(dest = 'mode')
 
@@ -11,7 +12,7 @@ from utils import createMap, computeSimilarities, computeDistances
     createmap_subparser = subparser.add_parser('create_map', help='Create introgression map from decode folder')
     createmap_subparser.add_argument("-decode",help="path to the decode folder",type=str,required = True )
     createmap_subparser.add_argument("-out",help="outputfile (defaults to stdout)",type=str,required = True )
- 
+
     # Add similarity to introgression map
     similarity_subparser = subparser.add_parser('similarity', help='Add similarity to introgression map')
     similarity_subparser.add_argument("-decode",
@@ -37,7 +38,7 @@ from utils import createMap, computeSimilarities, computeDistances
     similarity_subparser.add_argument("-folder", 
     help="Apply the similarity to all files in the given folder, else to a single given file", 
     action='store_true')
- 
+
 
 
     # Add distance to introgression map
@@ -98,6 +99,6 @@ from utils import createMap, computeSimilarities, computeDistances
                 computeDistances(file_path, args.mapped_individual, args.reference_individual, args.name_reference, args.outgroup_individuals, args.names_outgroup)
         else:
             computeDistances(args.decode, args.mapped_individual, args.reference_individual, args.name_reference, args.outgroup_individuals, args.names_outgroup)
-  
+
 if __name__ == "__main__":
     main()
