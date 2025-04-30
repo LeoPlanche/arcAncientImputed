@@ -80,7 +80,7 @@ def computeSimilarities(decodePath,mapped_individual,reference_individual,name_r
                     if total>0:
                         processed_lines.append(f'{currLine}\t{match/total:.4f}\n') 
                     else:
-                        processed_lines.append(f'{currLine}\n') 
+                        processed_lines.append(f'{currLine}\t{'NaN'}\n') 
                     lineMap = next(map)
                     slineMap = lineMap.split()    
                     total=0
