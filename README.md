@@ -8,3 +8,6 @@ The script to compute the D-statistics using GP is available in `src`. To use it
 ```
 
 Only the population P2 is considered as imputed, for P1, P3 and P4, allele frequency is used. The script is based on a previous implementation of [RIPTA](https://github.com/David-Peede/RIPTA).
+
+Test data with three ancient individuals and chromosome 2 is available here:
+https://drive.google.com/drive/folders/1GQlXtcmGsybFq6E94M4BF3eesvqhPLdf?usp=sharing
