@@ -1,0 +1,121 @@
+Individual,Coverage,Name,IID,Population,Date.mean.in.BP.in.years.before.1950.CE..OxCal.mu.for.a.direct.radiocarbon.date..and.average.of.range.for.a.contextual.date.,Country,Lat.,Long.,Coverage..X.,Study,UDG,Data.source,color
+2H10_0.0625X,0.0625X,2H10,2H10,European Neolithic,5165,France,48.85847,3.995887,14.8702,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H10_0.5X,0.5X,2H10,2H10,European Neolithic,5165,France,48.85847,3.995887,14.8702,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H10_1X,1X,2H10,2H10,European Neolithic,5165,France,48.85847,3.995887,14.8702,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H10_2X,2X,2H10,2H10,European Neolithic,5165,France,48.85847,3.995887,14.8702,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H10_Original,Original,2H10,2H10,European Neolithic,5165,France,48.85847,3.995887,14.8702,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H10_ImputedOC,ImputedOC,2H10,2H10,European Neolithic,5165,France,48.85847,3.995887,14.8702,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H11_0.0625X,0.0625X,2H11,2H11,European Neolithic,5162,France,48.85847,3.995887,19.1261,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H11_0.5X,0.5X,2H11,2H11,European Neolithic,5162,France,48.85847,3.995887,19.1261,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H11_1X,1X,2H11,2H11,European Neolithic,5162,France,48.85847,3.995887,19.1261,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H11_2X,2X,2H11,2H11,European Neolithic,5162,France,48.85847,3.995887,19.1261,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H11_Original,Original,2H11,2H11,European Neolithic,5162,France,48.85847,3.995887,19.1261,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+2H11_ImputedOC,ImputedOC,2H11,2H11,European Neolithic,5162,France,48.85847,3.995887,19.1261,seguin-orlando_2021,Y,Shotgun,#8d2962ff
+BA64_0.0625X,0.0625X,BA64,BA64,European Neolithic,3186,,54.54,-5.95,10.217,cassidy_2016,N,Shotgun,#8d2962ff
+BA64_0.5X,0.5X,BA64,BA64,European Neolithic,3186,,54.54,-5.95,10.217,cassidy_2016,N,Shotgun,#8d2962ff
+BA64_1X,1X,BA64,BA64,European Neolithic,3186,,54.54,-5.95,10.217,cassidy_2016,N,Shotgun,#8d2962ff
+BA64_2X,2X,BA64,BA64,European Neolithic,3186,,54.54,-5.95,10.217,cassidy_2016,N,Shotgun,#8d2962ff
+BA64_Original,Original,BA64,BA64,European Neolithic,3186,,54.54,-5.95,10.217,cassidy_2016,N,Shotgun,#8d2962ff
+BA64_ImputedOC,ImputedOC,BA64,BA64,European Neolithic,3186,,54.54,-5.95,10.217,cassidy_2016,N,Shotgun,#8d2962ff
+BOT2016_0.0625X,0.0625X,BOT2016,BOT2016,Steppe,5396,Kazakhstan,53.30598,67.64817,13.3661,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+BOT2016_0.5X,0.5X,BOT2016,BOT2016,Steppe,5396,Kazakhstan,53.30598,67.64817,13.3661,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+BOT2016_1X,1X,BOT2016,BOT2016,Steppe,5396,Kazakhstan,53.30598,67.64817,13.3661,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+BOT2016_2X,2X,BOT2016,BOT2016,Steppe,5396,Kazakhstan,53.30598,67.64817,13.3661,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+BOT2016_Original,Original,BOT2016,BOT2016,Steppe,5396,Kazakhstan,53.30598,67.64817,13.3661,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+BOT2016_ImputedOC,ImputedOC,BOT2016,BOT2016,Steppe,5396,Kazakhstan,53.30598,67.64817,13.3661,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+JP14_0.0625X,0.0625X,JP14,JP14,European Neolithic,5483,Ireland,52.52128,-7.16597,16.2993,cassidy_2020,Y,Shotgun,#8d2962ff
+JP14_0.5X,0.5X,JP14,JP14,European Neolithic,5483,Ireland,52.52128,-7.16597,16.2993,cassidy_2020,Y,Shotgun,#8d2962ff
+JP14_1X,1X,JP14,JP14,European Neolithic,5483,Ireland,52.52128,-7.16597,16.2993,cassidy_2020,Y,Shotgun,#8d2962ff
+JP14_2X,2X,JP14,JP14,European Neolithic,5483,Ireland,52.52128,-7.16597,16.2993,cassidy_2020,Y,Shotgun,#8d2962ff
+JP14_Original,Original,JP14,JP14,European Neolithic,5483,Ireland,52.52128,-7.16597,16.2993,cassidy_2020,Y,Shotgun,#8d2962ff
+JP14_ImputedOC,ImputedOC,JP14,JP14,European Neolithic,5483,Ireland,52.52128,-7.16597,16.2993,cassidy_2020,Y,Shotgun,#8d2962ff
+KK1_0.0625X,0.0625X,KK1,KK1,Caucasus Hunter-Gatherer,9678,Georgia,42.28,43.28,11.9827,jones_2015,N,Shotgun,#6581e7
+KK1_0.5X,0.5X,KK1,KK1,Caucasus Hunter-Gatherer,9678,Georgia,42.28,43.28,11.9827,jones_2015,N,Shotgun,#6581e7
+KK1_1X,1X,KK1,KK1,Caucasus Hunter-Gatherer,9678,Georgia,42.28,43.28,11.9827,jones_2015,N,Shotgun,#6581e7
+KK1_2X,2X,KK1,KK1,Caucasus Hunter-Gatherer,9678,Georgia,42.28,43.28,11.9827,jones_2015,N,Shotgun,#6581e7
+KK1_Original,Original,KK1,KK1,Caucasus Hunter-Gatherer,9678,Georgia,42.28,43.28,11.9827,jones_2015,N,Shotgun,#6581e7
+KK1_ImputedOC,ImputedOC,KK1,KK1,Caucasus Hunter-Gatherer,9678,Georgia,42.28,43.28,11.9827,jones_2015,N,Shotgun,#6581e7
+Kolyma1_0.0625X,0.0625X,Kolyma1,Kolyma1,Ancient Siberian,9775,Russia,68.6,159.1,13.5775,sikora_2019,N,Shotgun,#8c3821
+Kolyma1_0.5X,0.5X,Kolyma1,Kolyma1,Ancient Siberian,9775,Russia,68.6,159.1,13.5775,sikora_2019,N,Shotgun,#8c3821
+Kolyma1_1X,1X,Kolyma1,Kolyma1,Ancient Siberian,9775,Russia,68.6,159.1,13.5775,sikora_2019,N,Shotgun,#8c3821
+Kolyma1_2X,2X,Kolyma1,Kolyma1,Ancient Siberian,9775,Russia,68.6,159.1,13.5775,sikora_2019,N,Shotgun,#8c3821
+Kolyma1_Original,Original,Kolyma1,Kolyma1,Ancient Siberian,9775,Russia,68.6,159.1,13.5775,sikora_2019,N,Shotgun,#8c3821
+Kolyma1_ImputedOC,ImputedOC,Kolyma1,Kolyma1,Ancient Siberian,9775,Russia,68.6,159.1,13.5775,sikora_2019,N,Shotgun,#8c3821
+Loschbour_0.0625X,0.0625X,Loschbour,Loschbour,European Mesolithic,8025,,49.81,6.4,16.1928,lazaridis_2014,Y,Shotgun,#7e5920ff
+Loschbour_0.5X,0.5X,Loschbour,Loschbour,European Mesolithic,8025,,49.81,6.4,16.1928,lazaridis_2014,Y,Shotgun,#7e5920ff
+Loschbour_1X,1X,Loschbour,Loschbour,European Mesolithic,8025,,49.81,6.4,16.1928,lazaridis_2014,Y,Shotgun,#7e5920ff
+Loschbour_2X,2X,Loschbour,Loschbour,European Mesolithic,8025,,49.81,6.4,16.1928,lazaridis_2014,Y,Shotgun,#7e5920ff
+Loschbour_Original,Original,Loschbour,Loschbour,European Mesolithic,8025,,49.81,6.4,16.1928,lazaridis_2014,Y,Shotgun,#7e5920ff
+Loschbour_ImputedOC,ImputedOC,Loschbour,Loschbour,European Mesolithic,8025,,49.81,6.4,16.1928,lazaridis_2014,Y,Shotgun,#7e5920ff
+Mota_0.0625X,0.0625X,Mota,Mota,African Stone Age,4470,Ethiopia,6.797495,38.20785,11.0346,gallego-llorente_2016A_ethiopian,N,Shotgun,#0c50b7
+Mota_0.5X,0.5X,Mota,Mota,African Stone Age,4470,Ethiopia,6.797495,38.20785,11.0346,gallego-llorente_2016A_ethiopian,N,Shotgun,#0c50b7
+Mota_1X,1X,Mota,Mota,African Stone Age,4470,Ethiopia,6.797495,38.20785,11.0346,gallego-llorente_2016A_ethiopian,N,Shotgun,#0c50b7
+Mota_2X,2X,Mota,Mota,African Stone Age,4470,Ethiopia,6.797495,38.20785,11.0346,gallego-llorente_2016A_ethiopian,N,Shotgun,#0c50b7
+Mota_Original,Original,Mota,Mota,African Stone Age,4470,Ethiopia,6.797495,38.20785,11.0346,gallego-llorente_2016A_ethiopian,N,Shotgun,#0c50b7
+Mota_ImputedOC,ImputedOC,Mota,Mota,African Stone Age,4470,Ethiopia,6.797495,38.20785,11.0346,gallego-llorente_2016A_ethiopian,N,Shotgun,#0c50b7
+NE1_0.0625X,0.0625X,NE1,NE1,European Neolithic,7146,Hungary,47.84646,21.14943,18.2168,gamba_2014,Y,Shotgun,#8d2962ff
+NE1_0.5X,0.5X,NE1,NE1,European Neolithic,7146,Hungary,47.84646,21.14943,18.2168,gamba_2014,Y,Shotgun,#8d2962ff
+NE1_1X,1X,NE1,NE1,European Neolithic,7146,Hungary,47.84646,21.14943,18.2168,gamba_2014,Y,Shotgun,#8d2962ff
+NE1_2X,2X,NE1,NE1,European Neolithic,7146,Hungary,47.84646,21.14943,18.2168,gamba_2014,Y,Shotgun,#8d2962ff
+NE1_Original,Original,NE1,NE1,European Neolithic,7146,Hungary,47.84646,21.14943,18.2168,gamba_2014,Y,Shotgun,#8d2962ff
+NE1_ImputedOC,ImputedOC,NE1,NE1,European Neolithic,7146,Hungary,47.84646,21.14943,18.2168,gamba_2014,Y,Shotgun,#8d2962ff
+PB675_0.0625X,0.0625X,PB675,PB675,European Neolithic,5171,Ireland,52.9855,-9.11145,15.4964,cassidy_2020,Y,Shotgun,#8d2962ff
+PB675_0.5X,0.5X,PB675,PB675,European Neolithic,5171,Ireland,52.9855,-9.11145,15.4964,cassidy_2020,Y,Shotgun,#8d2962ff
+PB675_1X,1X,PB675,PB675,European Neolithic,5171,Ireland,52.9855,-9.11145,15.4964,cassidy_2020,Y,Shotgun,#8d2962ff
+PB675_2X,2X,PB675,PB675,European Neolithic,5171,Ireland,52.9855,-9.11145,15.4964,cassidy_2020,Y,Shotgun,#8d2962ff
+PB675_Original,Original,PB675,PB675,European Neolithic,5171,Ireland,52.9855,-9.11145,15.4964,cassidy_2020,Y,Shotgun,#8d2962ff
+PB675_ImputedOC,ImputedOC,PB675,PB675,European Neolithic,5171,Ireland,52.9855,-9.11145,15.4964,cassidy_2020,Y,Shotgun,#8d2962ff
+SRA62_0.0625X,0.0625X,SRA62,SRA62,European Mesolithic,6001,Ireland,54.29699,-8.33599,12.957,cassidy_2020,Y,Shotgun,#7e5920ff
+SRA62_0.5X,0.5X,SRA62,SRA62,European Mesolithic,6001,Ireland,54.29699,-8.33599,12.957,cassidy_2020,Y,Shotgun,#7e5920ff
+SRA62_1X,1X,SRA62,SRA62,European Mesolithic,6001,Ireland,54.29699,-8.33599,12.957,cassidy_2020,Y,Shotgun,#7e5920ff
+SRA62_2X,2X,SRA62,SRA62,European Mesolithic,6001,Ireland,54.29699,-8.33599,12.957,cassidy_2020,Y,Shotgun,#7e5920ff
+SRA62_Original,Original,SRA62,SRA62,European Mesolithic,6001,Ireland,54.29699,-8.33599,12.957,cassidy_2020,Y,Shotgun,#7e5920ff
+SRA62_ImputedOC,ImputedOC,SRA62,SRA62,European Mesolithic,6001,Ireland,54.29699,-8.33599,12.957,cassidy_2020,Y,Shotgun,#7e5920ff
+Stuttgart_0.0625X,0.0625X,Stuttgart,LBK,European Neolithic,7168,Germany,48.78,9.18,14.4222,lazaridis_2014,Y,Shotgun,#8d2962ff
+Stuttgart_0.5X,0.5X,Stuttgart,LBK,European Neolithic,7168,Germany,48.78,9.18,14.4222,lazaridis_2014,Y,Shotgun,#8d2962ff
+Stuttgart_1X,1X,Stuttgart,LBK,European Neolithic,7168,Germany,48.78,9.18,14.4222,lazaridis_2014,Y,Shotgun,#8d2962ff
+Stuttgart_2X,2X,Stuttgart,LBK,European Neolithic,7168,Germany,48.78,9.18,14.4222,lazaridis_2014,Y,Shotgun,#8d2962ff
+Stuttgart_Original,Original,Stuttgart,LBK,European Neolithic,7168,Germany,48.78,9.18,14.4222,lazaridis_2014,Y,Shotgun,#8d2962ff
+Stuttgart_ImputedOC,ImputedOC,Stuttgart,LBK,European Neolithic,7168,Germany,48.78,9.18,14.4222,lazaridis_2014,Y,Shotgun,#8d2962ff
+USR1_0.0625X,0.0625X,USR1,USR1,Ancient Berinigian,11425,USA,64.22,-145.7,15.3151,moreno-meyer_2018A_beringia,Y,Shotgun,#ffa737ff
+USR1_0.5X,0.5X,USR1,USR1,Ancient Berinigian,11425,USA,64.22,-145.7,15.3151,moreno-meyer_2018A_beringia,Y,Shotgun,#ffa737ff
+USR1_1X,1X,USR1,USR1,Ancient Berinigian,11425,USA,64.22,-145.7,15.3151,moreno-meyer_2018A_beringia,Y,Shotgun,#ffa737ff
+USR1_2X,2X,USR1,USR1,Ancient Berinigian,11425,USA,64.22,-145.7,15.3151,moreno-meyer_2018A_beringia,Y,Shotgun,#ffa737ff
+USR1_Original,Original,USR1,USR1,Ancient Berinigian,11425,USA,64.22,-145.7,15.3151,moreno-meyer_2018A_beringia,Y,Shotgun,#ffa737ff
+USR1_ImputedOC,ImputedOC,USR1,USR1,Ancient Berinigian,11425,USA,64.22,-145.7,15.3151,moreno-meyer_2018A_beringia,Y,Shotgun,#ffa737ff
+Ust_Ishim_0.0625X,0.0625X,Ust_Ishim,UstIshim,Pre-LGM Eurasian,44366,Russia,57.7,71.1,33.4629,fu_2014,Y,Shotgun,#ed217cff
+Ust_Ishim_0.5X,0.5X,Ust_Ishim,UstIshim,Pre-LGM Eurasian,44366,Russia,57.7,71.1,33.4629,fu_2014,Y,Shotgun,#ed217cff
+Ust_Ishim_1X,1X,Ust_Ishim,UstIshim,Pre-LGM Eurasian,44366,Russia,57.7,71.1,33.4629,fu_2014,Y,Shotgun,#ed217cff
+Ust_Ishim_2X,2X,Ust_Ishim,UstIshim,Pre-LGM Eurasian,44366,Russia,57.7,71.1,33.4629,fu_2014,Y,Shotgun,#ed217cff
+Ust_Ishim_Original,Original,Ust_Ishim,UstIshim,Pre-LGM Eurasian,44366,Russia,57.7,71.1,33.4629,fu_2014,Y,Shotgun,#ed217cff
+Ust_Ishim_ImputedOC,ImputedOC,Ust_Ishim,UstIshim,Pre-LGM Eurasian,44366,Russia,57.7,71.1,33.4629,fu_2014,Y,Shotgun,#ed217cff
+WC1_0.0625X,0.0625X,WC1,WC1,Iranian Neolithic,9214,Iran,34.6129,47.1057,10.0661,broushaki_2016,N,Shotgun,#008d00
+WC1_0.5X,0.5X,WC1,WC1,Iranian Neolithic,9214,Iran,34.6129,47.1057,10.0661,broushaki_2016,N,Shotgun,#008d00
+WC1_1X,1X,WC1,WC1,Iranian Neolithic,9214,Iran,34.6129,47.1057,10.0661,broushaki_2016,N,Shotgun,#008d00
+WC1_2X,2X,WC1,WC1,Iranian Neolithic,9214,Iran,34.6129,47.1057,10.0661,broushaki_2016,N,Shotgun,#008d00
+WC1_Original,Original,WC1,WC1,Iranian Neolithic,9214,Iran,34.6129,47.1057,10.0661,broushaki_2016,N,Shotgun,#008d00
+WC1_ImputedOC,ImputedOC,WC1,WC1,Iranian Neolithic,9214,Iran,34.6129,47.1057,10.0661,broushaki_2016,N,Shotgun,#008d00
+Yamnaya_0.0625X,0.0625X,Yamnaya,Yamnaya,Steppe,4890,,49.13422,75.85182,24.6828,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+Yamnaya_0.5X,0.5X,Yamnaya,Yamnaya,Steppe,4890,,49.13422,75.85182,24.6828,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+Yamnaya_1X,1X,Yamnaya,Yamnaya,Steppe,4890,,49.13422,75.85182,24.6828,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+Yamnaya_2X,2X,Yamnaya,Yamnaya,Steppe,4890,,49.13422,75.85182,24.6828,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+Yamnaya_Original,Original,Yamnaya,Yamnaya,Steppe,4890,,49.13422,75.85182,24.6828,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+Yamnaya_ImputedOC,ImputedOC,Yamnaya,Yamnaya,Steppe,4890,,49.13422,75.85182,24.6828,damgaard_2018B_horseherder,N,Shotgun,#1b998bff
+Yana1_0.0625X,0.0625X,Yana1,Yana_old,Pre-LGM Eurasian,31850,Russia,70.72,135.42,23.5256,sikora_2019,N,Shotgun,#ed217cff
+Yana1_0.5X,0.5X,Yana1,Yana_old,Pre-LGM Eurasian,31850,Russia,70.72,135.42,23.5256,sikora_2019,N,Shotgun,#ed217cff
+Yana1_1X,1X,Yana1,Yana_old,Pre-LGM Eurasian,31850,Russia,70.72,135.42,23.5256,sikora_2019,N,Shotgun,#ed217cff
+Yana1_2X,2X,Yana1,Yana_old,Pre-LGM Eurasian,31850,Russia,70.72,135.42,23.5256,sikora_2019,N,Shotgun,#ed217cff
+Yana1_Original,Original,Yana1,Yana_old,Pre-LGM Eurasian,31850,Russia,70.72,135.42,23.5256,sikora_2019,N,Shotgun,#ed217cff
+Yana1_ImputedOC,ImputedOC,Yana1,Yana_old,Pre-LGM Eurasian,31850,Russia,70.72,135.42,23.5256,sikora_2019,N,Shotgun,#ed217cff
+atp016_0.0625X,0.0625X,atp016,atp016,European Neolithic,4971,Spain,42.35267,-3.51832,11.7963,valdiosera_2018,N,Shotgun,#8d2962ff
+atp016_0.5X,0.5X,atp016,atp016,European Neolithic,4971,Spain,42.35267,-3.51832,11.7963,valdiosera_2018,N,Shotgun,#8d2962ff
+atp016_1X,1X,atp016,atp016,European Neolithic,4971,Spain,42.35267,-3.51832,11.7963,valdiosera_2018,N,Shotgun,#8d2962ff
+atp016_2X,2X,atp016,atp016,European Neolithic,4971,Spain,42.35267,-3.51832,11.7963,valdiosera_2018,N,Shotgun,#8d2962ff
+atp016_Original,Original,atp016,atp016,European Neolithic,4971,Spain,42.35267,-3.51832,11.7963,valdiosera_2018,N,Shotgun,#8d2962ff
+atp016_ImputedOC,ImputedOC,atp016,atp016,European Neolithic,4971,Spain,42.35267,-3.51832,11.7963,valdiosera_2018,N,Shotgun,#8d2962ff
+sf12_0.0625X,0.0625X,sf12,sf12,European Mesolithic,8895,Sweden,57.285,17.971,43.0956,gunther_2018,Y,Shotgun,#7e5920ff
+sf12_0.5X,0.5X,sf12,sf12,European Mesolithic,8895,Sweden,57.285,17.971,43.0956,gunther_2018,Y,Shotgun,#7e5920ff
+sf12_1X,1X,sf12,sf12,European Mesolithic,8895,Sweden,57.285,17.971,43.0956,gunther_2018,Y,Shotgun,#7e5920ff
+sf12_2X,2X,sf12,sf12,European Mesolithic,8895,Sweden,57.285,17.971,43.0956,gunther_2018,Y,Shotgun,#7e5920ff
+sf12_Original,Original,sf12,sf12,European Mesolithic,8895,Sweden,57.285,17.971,43.0956,gunther_2018,Y,Shotgun,#7e5920ff
+sf12_ImputedOC,ImputedOC,sf12,sf12,European Mesolithic,8895,Sweden,57.285,17.971,43.0956,gunther_2018,Y,Shotgun,#7e5920ff

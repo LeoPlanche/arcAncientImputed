@@ -1,0 +1,661 @@
+Sample	Coverage	D	Z.score	Filter	Data Type	Software
+2H10	0.0625X	-0.1155	-14.118	Imputed Filtered GP99	Imputed	Admixtools
+2H11	0.0625X	-0.1209	-12.611	Imputed Filtered GP99	Imputed	Admixtools
+atp016	0.0625X	-0.1229	-14.164	Imputed Filtered GP99	Imputed	Admixtools
+BA64	0.0625X	-0.1314	-13.739	Imputed Filtered GP99	Imputed	Admixtools
+BOT2016	0.0625X	-0.1315	-15.829	Imputed Filtered GP99	Imputed	Admixtools
+JP14	0.0625X	-0.1165	-11.321	Imputed Filtered GP99	Imputed	Admixtools
+KK1	0.0625X	-0.1253	-13.233	Imputed Filtered GP99	Imputed	Admixtools
+Kolyma1	0.0625X	-0.1501	-16.759	Imputed Filtered GP99	Imputed	Admixtools
+Loschbour	0.0625X	-0.1352	-14.91	Imputed Filtered GP99	Imputed	Admixtools
+Mota	0.0625X	-0.1246	-13.196	Imputed Filtered GP99	Imputed	Admixtools
+NE1	0.0625X	-0.1262	-15.799	Imputed Filtered GP99	Imputed	Admixtools
+PB675	0.0625X	-0.1267	-7.309	Imputed Filtered GP99	Imputed	Admixtools
+sf12	0.0625X	-0.1278	-12.037	Imputed Filtered GP99	Imputed	Admixtools
+SRA62	0.0625X	-0.1303	-14.536	Imputed Filtered GP99	Imputed	Admixtools
+Stuttgart	0.0625X	-0.1264	-17.177	Imputed Filtered GP99	Imputed	Admixtools
+USR1	0.0625X	-0.1227	-18.14	Imputed Filtered GP99	Imputed	Admixtools
+Ust_Ishim	0.0625X	-0.1268	-14.07	Imputed Filtered GP99	Imputed	Admixtools
+WC1	0.0625X	-0.1294	-13.942	Imputed Filtered GP99	Imputed	Admixtools
+Yamnaya	0.0625X	-0.1223	-15.558	Imputed Filtered GP99	Imputed	Admixtools
+Yana1	0.0625X	-0.1303	-19.954	Imputed Filtered GP99	Imputed	Admixtools
+2H10	0.0625X	-0.0506	-14.872	Imputed Raw	Imputed	Admixtools
+2H11	0.0625X	-0.0552	-13.148	Imputed Raw	Imputed	Admixtools
+atp016	0.0625X	-0.0541	-10.994	Imputed Raw	Imputed	Admixtools
+BA64	0.0625X	-0.0586	-12.013	Imputed Raw	Imputed	Admixtools
+BOT2016	0.0625X	-0.0558	-13.608	Imputed Raw	Imputed	Admixtools
+JP14	0.0625X	-0.0564	-9.717	Imputed Raw	Imputed	Admixtools
+KK1	0.0625X	-0.046	-9.978	Imputed Raw	Imputed	Admixtools
+Kolyma1	0.0625X	-0.0634	-11.634	Imputed Raw	Imputed	Admixtools
+Loschbour	0.0625X	-0.0616	-15.837	Imputed Raw	Imputed	Admixtools
+Mota	0.0625X	-0.0252	-9.776	Imputed Raw	Imputed	Admixtools
+NE1	0.0625X	-0.055	-11.899	Imputed Raw	Imputed	Admixtools
+PB675	0.0625X	-0.0574	-9.464	Imputed Raw	Imputed	Admixtools
+sf12	0.0625X	-0.0551	-8.32	Imputed Raw	Imputed	Admixtools
+SRA62	0.0625X	-0.0616	-13.422	Imputed Raw	Imputed	Admixtools
+Stuttgart	0.0625X	-0.0549	-13.796	Imputed Raw	Imputed	Admixtools
+USR1	0.0625X	-0.0507	-12.082	Imputed Raw	Imputed	Admixtools
+Ust_Ishim	0.0625X	-0.0584	-9.75	Imputed Raw	Imputed	Admixtools
+WC1	0.0625X	-0.0484	-10.381	Imputed Raw	Imputed	Admixtools
+Yamnaya	0.0625X	-0.0538	-13.044	Imputed Raw	Imputed	Admixtools
+Yana1	0.0625X	-0.0649	-13.296	Imputed Raw	Imputed	Admixtools
+2H10	0.0625X	-0.0385	-5.615	Pseudohaploid	Pseudohaploid	Admixtools
+2H11	0.0625X	-0.0337	-5.146	Pseudohaploid	Pseudohaploid	Admixtools
+atp016	0.0625X	-0.0273	-3.85	Pseudohaploid	Pseudohaploid	Admixtools
+BA64	0.0625X	-0.0241	-3.47	Pseudohaploid	Pseudohaploid	Admixtools
+BOT2016	0.0625X	-0.0302	-5.675	Pseudohaploid	Pseudohaploid	Admixtools
+JP14	0.0625X	-0.0343	-5.578	Pseudohaploid	Pseudohaploid	Admixtools
+KK1	0.0625X	0.007	0.954	Pseudohaploid	Pseudohaploid	Admixtools
+Kolyma1	0.0625X	-0.0604	-8.419	Pseudohaploid	Pseudohaploid	Admixtools
+Loschbour	0.0625X	-0.0424	-6.284	Pseudohaploid	Pseudohaploid	Admixtools
+Mota	0.0625X	0.0256	5.279	Pseudohaploid	Pseudohaploid	Admixtools
+NE1	0.0625X	-0.0157	-2.34	Pseudohaploid	Pseudohaploid	Admixtools
+PB675	0.0625X	-0.0169	-2.653	Pseudohaploid	Pseudohaploid	Admixtools
+sf12	0.0625X	-0.0405	-6.895	Pseudohaploid	Pseudohaploid	Admixtools
+SRA62	0.0625X	-0.0378	-4.754	Pseudohaploid	Pseudohaploid	Admixtools
+Stuttgart	0.0625X	-0.0151	-2.845	Pseudohaploid	Pseudohaploid	Admixtools
+USR1	0.0625X	-0.0326	-5.77	Pseudohaploid	Pseudohaploid	Admixtools
+Ust_Ishim	0.0625X	-0.0412	-4.517	Pseudohaploid	Pseudohaploid	Admixtools
+WC1	0.0625X	-0.0139	-2.136	Pseudohaploid	Pseudohaploid	Admixtools
+Yamnaya	0.0625X	-0.024	-5.305	Pseudohaploid	Pseudohaploid	Admixtools
+Yana1	0.0625X	-0.0392	-6.048	Pseudohaploid	Pseudohaploid	Admixtools
+2H10	0.0625X	-0.0528	-4.956	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H11	0.0625X	-0.0509	-6.151	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+atp016	0.0625X	-0.0526	-7.03	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BA64	0.0625X	-0.0634	-5.78	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BOT2016	0.0625X	-0.0572	-6.485	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+JP14	0.0625X	-0.0624	-5.437	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+KK1	0.0625X	-0.0487	-4.528	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Kolyma1	0.0625X	-0.074	-5.744	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Loschbour	0.0625X	-0.0655	-6.605	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Mota	0.0625X	-0.0046	-0.515	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+NE1	0.0625X	-0.0621	-6.665	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+PB675	0.0625X	-0.0548	-5.932	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+sf12	0.0625X	-0.0532	-5.723	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+SRA62	0.0625X	-0.0521	-4.582	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Stuttgart	0.0625X	-0.043	-4.53	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+USR1	0.0625X	-0.049	-5.161	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Ust_Ishim	0.0625X	-0.0631	-5.274	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+WC1	0.0625X	-0.0557	-4.888	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yamnaya	0.0625X	-0.0496	-4.652	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yana1	0.0625X	-0.0695	-7.49	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H10	0.0625X	-0.045153722	NA	Imputed GP Weighted	Imputed	New Script
+2H11	0.0625X	-0.048067934	NA	Imputed GP Weighted	Imputed	New Script
+BA64	0.0625X	-0.051070592	NA	Imputed GP Weighted	Imputed	New Script
+BOT2016	0.0625X	-0.048742897	NA	Imputed GP Weighted	Imputed	New Script
+JP14	0.0625X	-0.049292909	NA	Imputed GP Weighted	Imputed	New Script
+KK1	0.0625X	-0.040215028	NA	Imputed GP Weighted	Imputed	New Script
+Kolyma1	0.0625X	-0.056897734	NA	Imputed GP Weighted	Imputed	New Script
+Stuttgart	0.0625X	-0.047556156	NA	Imputed GP Weighted	Imputed	New Script
+Loschbour	0.0625X	-0.054511497	NA	Imputed GP Weighted	Imputed	New Script
+Mota	0.0625X	-0.014001828	NA	Imputed GP Weighted	Imputed	New Script
+NE1	0.0625X	-0.046805825	NA	Imputed GP Weighted	Imputed	New Script
+PB675	0.0625X	-0.050391322	NA	Imputed GP Weighted	Imputed	New Script
+SRA62	0.0625X	-0.054843008	NA	Imputed GP Weighted	Imputed	New Script
+USR1	0.0625X	-0.046203972	NA	Imputed GP Weighted	Imputed	New Script
+Ust_Ishim	0.0625X	-0.050259596	NA	Imputed GP Weighted	Imputed	New Script
+WC1	0.0625X	-0.042177873	NA	Imputed GP Weighted	Imputed	New Script
+Yamnaya	0.0625X	-0.048105345	NA	Imputed GP Weighted	Imputed	New Script
+Yana1	0.0625X	-0.056645507	NA	Imputed GP Weighted	Imputed	New Script
+atp016	0.0625X	-0.046616383	NA	Imputed GP Weighted	Imputed	New Script
+sf12	0.0625X	-0.049206896	NA	Imputed GP Weighted	Imputed	New Script
+2H10	0.0625X	-0.0195	-5.852	Imputed Filtered MAF05	Imputed	Admixtools
+2H11	0.0625X	-0.0216	-6.086	Imputed Filtered MAF05	Imputed	Admixtools
+atp016	0.0625X	-0.0231	-5.017	Imputed Filtered MAF05	Imputed	Admixtools
+BA64	0.0625X	-0.0255	-5.807	Imputed Filtered MAF05	Imputed	Admixtools
+BOT2016	0.0625X	-0.0232	-6.776	Imputed Filtered MAF05	Imputed	Admixtools
+JP14	0.0625X	-0.0251	-4.309	Imputed Filtered MAF05	Imputed	Admixtools
+KK1	0.0625X	-0.0146	-3.088	Imputed Filtered MAF05	Imputed	Admixtools
+Kolyma1	0.0625X	-0.0301	-6.006	Imputed Filtered MAF05	Imputed	Admixtools
+Stuttgart	0.0625X	-0.0237	-6.298	Imputed Filtered MAF05	Imputed	Admixtools
+Loschbour	0.0625X	-0.0263	-6.204	Imputed Filtered MAF05	Imputed	Admixtools
+Mota	0.0625X	-0.0109	-4.059	Imputed Filtered MAF05	Imputed	Admixtools
+NE1	0.0625X	-0.0223	-5.078	Imputed Filtered MAF05	Imputed	Admixtools
+PB675	0.0625X	-0.022	-4.109	Imputed Filtered MAF05	Imputed	Admixtools
+sf12	0.0625X	-0.0216	-3.346	Imputed Filtered MAF05	Imputed	Admixtools
+SRA62	0.0625X	-0.0287	-6.122	Imputed Filtered MAF05	Imputed	Admixtools
+USR1	0.0625X	-0.0167	-4.044	Imputed Filtered MAF05	Imputed	Admixtools
+Ust_Ishim	0.0625X	-0.019	-4.385	Imputed Filtered MAF05	Imputed	Admixtools
+WC1	0.0625X	-0.0136	-3.546	Imputed Filtered MAF05	Imputed	Admixtools
+Yamnaya	0.0625X	-0.0206	-5.015	Imputed Filtered MAF05	Imputed	Admixtools
+Yana1	0.0625X	-0.03	-6.435	Imputed Filtered MAF05	Imputed	Admixtools
+2H10	0.5X	-0.0593	-16.027	Imputed Filtered GP99	Imputed	Admixtools
+2H11	0.5X	-0.0633	-15.331	Imputed Filtered GP99	Imputed	Admixtools
+atp016	0.5X	-0.0611	-11.174	Imputed Filtered GP99	Imputed	Admixtools
+BA64	0.5X	-0.0659	-12.468	Imputed Filtered GP99	Imputed	Admixtools
+BOT2016	0.5X	-0.0652	-14.265	Imputed Filtered GP99	Imputed	Admixtools
+JP14	0.5X	-0.0622	-9.849	Imputed Filtered GP99	Imputed	Admixtools
+KK1	0.5X	-0.0545	-10.298	Imputed Filtered GP99	Imputed	Admixtools
+Kolyma1	0.5X	-0.0754	-12.301	Imputed Filtered GP99	Imputed	Admixtools
+Loschbour	0.5X	-0.0709	-16.346	Imputed Filtered GP99	Imputed	Admixtools
+Mota	0.5X	-0.0256	-6.73	Imputed Filtered GP99	Imputed	Admixtools
+NE1	0.5X	-0.0617	-12.429	Imputed Filtered GP99	Imputed	Admixtools
+PB675	0.5X	-0.0664	-9.429	Imputed Filtered GP99	Imputed	Admixtools
+sf12	0.5X	-0.0636	-9.066	Imputed Filtered GP99	Imputed	Admixtools
+SRA62	0.5X	-0.0702	-14.625	Imputed Filtered GP99	Imputed	Admixtools
+Stuttgart	0.5X	-0.0614	-12.724	Imputed Filtered GP99	Imputed	Admixtools
+USR1	0.5X	-0.0597	-12.844	Imputed Filtered GP99	Imputed	Admixtools
+Ust_Ishim	0.5X	-0.0665	-10.077	Imputed Filtered GP99	Imputed	Admixtools
+WC1	0.5X	-0.0569	-11.542	Imputed Filtered GP99	Imputed	Admixtools
+Yamnaya	0.5X	-0.0626	-12.805	Imputed Filtered GP99	Imputed	Admixtools
+Yana1	0.5X	-0.0758	-12.745	Imputed Filtered GP99	Imputed	Admixtools
+2H10	0.5X	-0.0509	-16.394	Imputed Raw	Imputed	Admixtools
+2H11	0.5X	-0.0555	-14.155	Imputed Raw	Imputed	Admixtools
+atp016	0.5X	-0.0524	-10.648	Imputed Raw	Imputed	Admixtools
+BA64	0.5X	-0.0578	-12.183	Imputed Raw	Imputed	Admixtools
+BOT2016	0.5X	-0.0562	-13.558	Imputed Raw	Imputed	Admixtools
+JP14	0.5X	-0.056	-9.511	Imputed Raw	Imputed	Admixtools
+KK1	0.5X	-0.0445	-9.634	Imputed Raw	Imputed	Admixtools
+Kolyma1	0.5X	-0.0647	-10.932	Imputed Raw	Imputed	Admixtools
+Loschbour	0.5X	-0.0606	-14.903	Imputed Raw	Imputed	Admixtools
+Mota	0.5X	-0.009	-3.396	Imputed Raw	Imputed	Admixtools
+NE1	0.5X	-0.052	-11.304	Imputed Raw	Imputed	Admixtools
+PB675	0.5X	-0.0584	-9.512	Imputed Raw	Imputed	Admixtools
+sf12	0.5X	-0.0559	-8.564	Imputed Raw	Imputed	Admixtools
+SRA62	0.5X	-0.0613	-13.438	Imputed Raw	Imputed	Admixtools
+Stuttgart	0.5X	-0.0535	-12.322	Imputed Raw	Imputed	Admixtools
+USR1	0.5X	-0.0518	-11.337	Imputed Raw	Imputed	Admixtools
+Ust_Ishim	0.5X	-0.0616	-9.106	Imputed Raw	Imputed	Admixtools
+WC1	0.5X	-0.0464	-10.465	Imputed Raw	Imputed	Admixtools
+Yamnaya	0.5X	-0.0544	-12.673	Imputed Raw	Imputed	Admixtools
+Yana1	0.5X	-0.0671	-13.241	Imputed Raw	Imputed	Admixtools
+2H10	0.5X	-0.0295	-7.88	Pseudohaploid	Pseudohaploid	Admixtools
+2H11	0.5X	-0.0397	-10.027	Pseudohaploid	Pseudohaploid	Admixtools
+atp016	0.5X	-0.0268	-4.669	Pseudohaploid	Pseudohaploid	Admixtools
+BA64	0.5X	-0.0239	-5.252	Pseudohaploid	Pseudohaploid	Admixtools
+BOT2016	0.5X	-0.0302	-6.42	Pseudohaploid	Pseudohaploid	Admixtools
+JP14	0.5X	-0.0263	-4.242	Pseudohaploid	Pseudohaploid	Admixtools
+KK1	0.5X	0.0058	1.037	Pseudohaploid	Pseudohaploid	Admixtools
+Kolyma1	0.5X	-0.0506	-7.894	Pseudohaploid	Pseudohaploid	Admixtools
+Loschbour	0.5X	-0.0414	-7.843	Pseudohaploid	Pseudohaploid	Admixtools
+Mota	0.5X	0.0316	10.164	Pseudohaploid	Pseudohaploid	Admixtools
+NE1	0.5X	-0.0113	-2.619	Pseudohaploid	Pseudohaploid	Admixtools
+PB675	0.5X	-0.0261	-4.293	Pseudohaploid	Pseudohaploid	Admixtools
+sf12	0.5X	-0.0401	-5.946	Pseudohaploid	Pseudohaploid	Admixtools
+SRA62	0.5X	-0.0496	-9.454	Pseudohaploid	Pseudohaploid	Admixtools
+Stuttgart	0.5X	-0.02	-4.277	Pseudohaploid	Pseudohaploid	Admixtools
+USR1	0.5X	-0.0327	-6.844	Pseudohaploid	Pseudohaploid	Admixtools
+Ust_Ishim	0.5X	-0.04	-5.369	Pseudohaploid	Pseudohaploid	Admixtools
+WC1	0.5X	-0.0128	-2.485	Pseudohaploid	Pseudohaploid	Admixtools
+Yamnaya	0.5X	-0.028	-6.289	Pseudohaploid	Pseudohaploid	Admixtools
+Yana1	0.5X	-0.0379	-7.309	Pseudohaploid	Pseudohaploid	Admixtools
+2H10	0.5X	-0.0527	-11.669	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H11	0.5X	-0.0612	-11.132	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+atp016	0.5X	-0.0526	-9.237	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BA64	0.5X	-0.0666	-10.992	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BOT2016	0.5X	-0.057	-9.692	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+JP14	0.5X	-0.0553	-7.317	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+KK1	0.5X	-0.0517	-7.35	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Kolyma1	0.5X	-0.0625	-7.717	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Loschbour	0.5X	-0.0616	-11.768	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Mota	0.5X	5.00E-04	0.097	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+NE1	0.5X	-0.0531	-10.386	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+PB675	0.5X	-0.0585	-9.135	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+sf12	0.5X	-0.0551	-7.713	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+SRA62	0.5X	-0.0634	-10.755	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Stuttgart	0.5X	-0.051	-9.982	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+USR1	0.5X	-0.0469	-7.277	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Ust_Ishim	0.5X	-0.0609	-6.692	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+WC1	0.5X	-0.0489	-8.532	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yamnaya	0.5X	-0.0506	-10.039	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yana1	0.5X	-0.0709	-12.05	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H10	0.5X	-0.045222195	NA	Imputed GP Weighted	Imputed	New Script
+2H11	0.5X	-0.049406213	NA	Imputed GP Weighted	Imputed	New Script
+BA64	0.5X	-0.051113681	NA	Imputed GP Weighted	Imputed	New Script
+BOT2016	0.5X	-0.049381054	NA	Imputed GP Weighted	Imputed	New Script
+JP14	0.5X	-0.049653298	NA	Imputed GP Weighted	Imputed	New Script
+KK1	0.5X	-0.038210008	NA	Imputed GP Weighted	Imputed	New Script
+Kolyma1	0.5X	-0.058910369	NA	Imputed GP Weighted	Imputed	New Script
+Stuttgart	0.5X	-0.047038576	NA	Imputed GP Weighted	Imputed	New Script
+Loschbour	0.5X	-0.05474872	NA	Imputed GP Weighted	Imputed	New Script
+Mota	0.5X	-0.004649052	NA	Imputed GP Weighted	Imputed	New Script
+NE1	0.5X	-0.044431149	NA	Imputed GP Weighted	Imputed	New Script
+PB675	0.5X	-0.052128057	NA	Imputed GP Weighted	Imputed	New Script
+SRA62	0.5X	-0.055521195	NA	Imputed GP Weighted	Imputed	New Script
+USR1	0.5X	-0.046704562	NA	Imputed GP Weighted	Imputed	New Script
+Ust_Ishim	0.5X	-0.054917519	NA	Imputed GP Weighted	Imputed	New Script
+WC1	0.5X	-0.040302982	NA	Imputed GP Weighted	Imputed	New Script
+Yamnaya	0.5X	-0.048427366	NA	Imputed GP Weighted	Imputed	New Script
+Yana1	0.5X	-0.05964769	NA	Imputed GP Weighted	Imputed	New Script
+atp016	0.5X	-0.046357123	NA	Imputed GP Weighted	Imputed	New Script
+sf12	0.5X	-0.050017996	NA	Imputed GP Weighted	Imputed	New Script
+2H10	0.5X	-0.0192	-6.156	Imputed Filtered MAF05	Imputed	Admixtools
+2H11	0.5X	-0.021	-6.343	Imputed Filtered MAF05	Imputed	Admixtools
+atp016	0.5X	-0.0197	-4.201	Imputed Filtered MAF05	Imputed	Admixtools
+BA64	0.5X	-0.0242	-5.694	Imputed Filtered MAF05	Imputed	Admixtools
+BOT2016	0.5X	-0.0226	-6.766	Imputed Filtered MAF05	Imputed	Admixtools
+JP14	0.5X	-0.0246	-4.218	Imputed Filtered MAF05	Imputed	Admixtools
+KK1	0.5X	-0.0122	-2.681	Imputed Filtered MAF05	Imputed	Admixtools
+Kolyma1	0.5X	-0.03	-5.637	Imputed Filtered MAF05	Imputed	Admixtools
+Stuttgart	0.5X	-0.022	-5.45	Imputed Filtered MAF05	Imputed	Admixtools
+Loschbour	0.5X	-0.0245	-5.652	Imputed Filtered MAF05	Imputed	Admixtools
+Mota	0.5X	-0.0037	-1.328	Imputed Filtered MAF05	Imputed	Admixtools
+NE1	0.5X	-0.0186	-4.379	Imputed Filtered MAF05	Imputed	Admixtools
+PB675	0.5X	-0.0225	-4.148	Imputed Filtered MAF05	Imputed	Admixtools
+sf12	0.5X	-0.0214	-3.375	Imputed Filtered MAF05	Imputed	Admixtools
+SRA62	0.5X	-0.0271	-5.793	Imputed Filtered MAF05	Imputed	Admixtools
+USR1	0.5X	-0.0169	-3.903	Imputed Filtered MAF05	Imputed	Admixtools
+Ust_Ishim	0.5X	-0.0173	-3.781	Imputed Filtered MAF05	Imputed	Admixtools
+WC1	0.5X	-0.0103	-2.833	Imputed Filtered MAF05	Imputed	Admixtools
+Yamnaya	0.5X	-0.0202	-4.803	Imputed Filtered MAF05	Imputed	Admixtools
+Yana1	0.5X	-0.0283	-5.769	Imputed Filtered MAF05	Imputed	Admixtools
+2H10	1X	-0.0555	-16.941	Imputed Filtered GP99	Imputed	Admixtools
+2H11	1X	-0.0601	-14.703	Imputed Filtered GP99	Imputed	Admixtools
+atp016	1X	-0.0572	-11.176	Imputed Filtered GP99	Imputed	Admixtools
+BA64	1X	-0.0623	-12.501	Imputed Filtered GP99	Imputed	Admixtools
+BOT2016	1X	-0.0609	-13.285	Imputed Filtered GP99	Imputed	Admixtools
+JP14	1X	-0.0594	-9.713	Imputed Filtered GP99	Imputed	Admixtools
+KK1	1X	-0.0509	-10.476	Imputed Filtered GP99	Imputed	Admixtools
+Kolyma1	1X	-0.0701	-11.673	Imputed Filtered GP99	Imputed	Admixtools
+Loschbour	1X	-0.0662	-15.781	Imputed Filtered GP99	Imputed	Admixtools
+Mota	1X	-0.0176	-5.59	Imputed Filtered GP99	Imputed	Admixtools
+NE1	1X	-0.0568	-11.864	Imputed Filtered GP99	Imputed	Admixtools
+PB675	1X	-0.0623	-9.551	Imputed Filtered GP99	Imputed	Admixtools
+sf12	1X	-0.0598	-8.882	Imputed Filtered GP99	Imputed	Admixtools
+SRA62	1X	-0.066	-13.984	Imputed Filtered GP99	Imputed	Admixtools
+Stuttgart	1X	-0.0579	-12.829	Imputed Filtered GP99	Imputed	Admixtools
+USR1	1X	-0.057	-12.674	Imputed Filtered GP99	Imputed	Admixtools
+Ust_Ishim	1X	-0.065	-9.751	Imputed Filtered GP99	Imputed	Admixtools
+WC1	1X	-0.0526	-11.258	Imputed Filtered GP99	Imputed	Admixtools
+Yamnaya	1X	-0.0585	-13.146	Imputed Filtered GP99	Imputed	Admixtools
+Yana1	1X	-0.0722	-13.151	Imputed Filtered GP99	Imputed	Admixtools
+2H10	1X	-0.0509	-14.509	Imputed Raw	Imputed	Admixtools
+2H11	1X	-0.0575	-12.654	Imputed Raw	Imputed	Admixtools
+atp016	1X	-0.0547	-8.941	Imputed Raw	Imputed	Admixtools
+BA64	1X	-0.0602	-10.557	Imputed Raw	Imputed	Admixtools
+BOT2016	1X	-0.0565	-10.887	Imputed Raw	Imputed	Admixtools
+JP14	1X	-0.0555	-6.94	Imputed Raw	Imputed	Admixtools
+KK1	1X	-0.0469	-8.446	Imputed Raw	Imputed	Admixtools
+Kolyma1	1X	-0.0652	-8.585	Imputed Raw	Imputed	Admixtools
+Loschbour	1X	-0.0643	-13.635	Imputed Raw	Imputed	Admixtools
+Mota	1X	-0.0054	-1.714	Imputed Raw	Imputed	Admixtools
+NE1	1X	-0.051	-8.815	Imputed Raw	Imputed	Admixtools
+PB675	1X	-0.062	-9.719	Imputed Raw	Imputed	Admixtools
+sf12	1X	-0.0592	-7.074	Imputed Raw	Imputed	Admixtools
+SRA62	1X	-0.0625	-11.532	Imputed Raw	Imputed	Admixtools
+Stuttgart	1X	-0.0552	-11.911	Imputed Raw	Imputed	Admixtools
+USR1	1X	-0.0527	-9.19	Imputed Raw	Imputed	Admixtools
+Ust_Ishim	1X	-0.0586	-6.598	Imputed Raw	Imputed	Admixtools
+WC1	1X	-0.0462	-8.431	Imputed Raw	Imputed	Admixtools
+Yamnaya	1X	-0.0557	-10.32	Imputed Raw	Imputed	Admixtools
+Yana1	1X	-0.0691	-11.684	Imputed Raw	Imputed	Admixtools
+2H10	1X	-0.0297	-8.165	Pseudohaploid	Pseudohaploid	Admixtools
+2H11	1X	-0.0383	-10.166	Pseudohaploid	Pseudohaploid	Admixtools
+atp016	1X	-0.0268	-5.365	Pseudohaploid	Pseudohaploid	Admixtools
+BA64	1X	-0.0219	-4.24	Pseudohaploid	Pseudohaploid	Admixtools
+BOT2016	1X	-0.029	-6.222	Pseudohaploid	Pseudohaploid	Admixtools
+JP14	1X	-0.0285	-4.842	Pseudohaploid	Pseudohaploid	Admixtools
+KK1	1X	0.0078	1.641	Pseudohaploid	Pseudohaploid	Admixtools
+Kolyma1	1X	-0.05	-7.836	Pseudohaploid	Pseudohaploid	Admixtools
+Loschbour	1X	-0.0412	-8.995	Pseudohaploid	Pseudohaploid	Admixtools
+Mota	1X	0.035	11.471	Pseudohaploid	Pseudohaploid	Admixtools
+NE1	1X	-0.0108	-2.282	Pseudohaploid	Pseudohaploid	Admixtools
+PB675	1X	-0.0272	-4.673	Pseudohaploid	Pseudohaploid	Admixtools
+sf12	1X	-0.0427	-6.151	Pseudohaploid	Pseudohaploid	Admixtools
+SRA62	1X	-0.0492	-10.243	Pseudohaploid	Pseudohaploid	Admixtools
+Stuttgart	1X	-0.0201	-4.53	Pseudohaploid	Pseudohaploid	Admixtools
+USR1	1X	-0.034	-7.566	Pseudohaploid	Pseudohaploid	Admixtools
+Ust_Ishim	1X	-0.0389	-5.258	Pseudohaploid	Pseudohaploid	Admixtools
+WC1	1X	-0.0152	-3.46	Pseudohaploid	Pseudohaploid	Admixtools
+Yamnaya	1X	-0.0272	-6.035	Pseudohaploid	Pseudohaploid	Admixtools
+Yana1	1X	-0.0389	-7.59	Pseudohaploid	Pseudohaploid	Admixtools
+2H10	1X	-0.0528	-13.431	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H11	1X	-0.0596	-12.627	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+atp016	1X	-0.0541	-9.508	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BA64	1X	-0.0602	-11.048	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BOT2016	1X	-0.0532	-9.398	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+JP14	1X	-0.0548	-8.064	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+KK1	1X	-0.0468	-8.925	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Kolyma1	1X	-0.0641	-8.987	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Loschbour	1X	-0.0612	-12.104	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Mota	1X	4.00E-04	0.108	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+NE1	1X	-0.0529	-9.046	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+PB675	1X	-0.0588	-9.094	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+sf12	1X	-0.0572	-7.819	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+SRA62	1X	-0.0628	-11.657	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Stuttgart	1X	-0.0519	-10.538	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+USR1	1X	-0.0499	-8.871	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Ust_Ishim	1X	-0.0582	-6.929	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+WC1	1X	-0.0483	-9.396	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yamnaya	1X	-0.0529	-9.98	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yana1	1X	-0.0702	-11.702	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H10	1X	-0.044577544	NA	Imputed GP Weighted	Imputed	New Script
+2H11	1X	-0.049085223	NA	Imputed GP Weighted	Imputed	New Script
+BA64	1X	-0.050203489	NA	Imputed GP Weighted	Imputed	New Script
+BOT2016	1X	-0.048418644	NA	Imputed GP Weighted	Imputed	New Script
+JP14	1X	-0.048861068	NA	Imputed GP Weighted	Imputed	New Script
+KK1	1X	-0.036821135	NA	Imputed GP Weighted	Imputed	New Script
+Kolyma1	1X	-0.058271078	NA	Imputed GP Weighted	Imputed	New Script
+Stuttgart	1X	-0.045804563	NA	Imputed GP Weighted	Imputed	New Script
+Loschbour	1X	-0.054218336	NA	Imputed GP Weighted	Imputed	New Script
+Mota	1X	-0.002615661	NA	Imputed GP Weighted	Imputed	New Script
+NE1	1X	-0.043328037	NA	Imputed GP Weighted	Imputed	New Script
+PB675	1X	-0.051264334	NA	Imputed GP Weighted	Imputed	New Script
+SRA62	1X	-0.055190709	NA	Imputed GP Weighted	Imputed	New Script
+USR1	1X	-0.046297409	NA	Imputed GP Weighted	Imputed	New Script
+Ust_Ishim	1X	-0.055325552	NA	Imputed GP Weighted	Imputed	New Script
+WC1	1X	-0.039214536	NA	Imputed GP Weighted	Imputed	New Script
+Yamnaya	1X	-0.047764565	NA	Imputed GP Weighted	Imputed	New Script
+Yana1	1X	-0.059072992	NA	Imputed GP Weighted	Imputed	New Script
+atp016	1X	-0.045976476	NA	Imputed GP Weighted	Imputed	New Script
+sf12	1X	-0.049754437	NA	Imputed GP Weighted	Imputed	New Script
+2H10	1X	-0.0197	-5.662	Imputed Filtered MAF05	Imputed	Admixtools
+2H11	1X	-0.0225	-6.074	Imputed Filtered MAF05	Imputed	Admixtools
+atp016	1X	-0.0222	-3.927	Imputed Filtered MAF05	Imputed	Admixtools
+BA64	1X	-0.0255	-4.923	Imputed Filtered MAF05	Imputed	Admixtools
+BOT2016	1X	-0.0227	-5.244	Imputed Filtered MAF05	Imputed	Admixtools
+JP14	1X	-0.0238	-2.976	Imputed Filtered MAF05	Imputed	Admixtools
+KK1	1X	-0.0138	-2.415	Imputed Filtered MAF05	Imputed	Admixtools
+Kolyma1	1X	-0.0298	-4.177	Imputed Filtered MAF05	Imputed	Admixtools
+Stuttgart	1X	-0.0239	-5.508	Imputed Filtered MAF05	Imputed	Admixtools
+Loschbour	1X	-0.0285	-5.552	Imputed Filtered MAF05	Imputed	Admixtools
+Mota	1X	-0.0016	-0.481	Imputed Filtered MAF05	Imputed	Admixtools
+NE1	1X	-0.0178	-3.183	Imputed Filtered MAF05	Imputed	Admixtools
+PB675	1X	-0.0251	-4.675	Imputed Filtered MAF05	Imputed	Admixtools
+sf12	1X	-0.0243	-3.013	Imputed Filtered MAF05	Imputed	Admixtools
+SRA62	1X	-0.0285	-4.92	Imputed Filtered MAF05	Imputed	Admixtools
+USR1	1X	-0.0171	-3.007	Imputed Filtered MAF05	Imputed	Admixtools
+Ust_Ishim	1X	-0.0141	-2.539	Imputed Filtered MAF05	Imputed	Admixtools
+WC1	1X	-0.0093	-2.108	Imputed Filtered MAF05	Imputed	Admixtools
+Yamnaya	1X	-0.0208	-3.893	Imputed Filtered MAF05	Imputed	Admixtools
+Yana1	1X	-0.0293	-4.92	Imputed Filtered MAF05	Imputed	Admixtools
+2H10	2X	-0.0533	-16.407	Imputed Filtered GP99	Imputed	Admixtools
+2H11	2X	-0.0579	-14.122	Imputed Filtered GP99	Imputed	Admixtools
+atp016	2X	-0.0552	-10.839	Imputed Filtered GP99	Imputed	Admixtools
+BA64	2X	-0.0606	-12.553	Imputed Filtered GP99	Imputed	Admixtools
+BOT2016	2X	-0.0591	-13.702	Imputed Filtered GP99	Imputed	Admixtools
+JP14	2X	-0.0579	-9.586	Imputed Filtered GP99	Imputed	Admixtools
+KK1	2X	-4.81E-02	-10.24	Imputed Filtered GP99	Imputed	Admixtools
+Kolyma1	2X	-0.0682	-11.446	Imputed Filtered GP99	Imputed	Admixtools
+Loschbour	2X	-0.0639	-15.527	Imputed Filtered GP99	Imputed	Admixtools
+Mota	2X	-0.0136	-4.16	Imputed Filtered GP99	Imputed	Admixtools
+NE1	2X	-0.0548	-11.458	Imputed Filtered GP99	Imputed	Admixtools
+PB675	2X	-0.0607	-9.616	Imputed Filtered GP99	Imputed	Admixtools
+sf12	2X	-0.0582	-8.698	Imputed Filtered GP99	Imputed	Admixtools
+SRA62	2X	-0.0641	-13.723	Imputed Filtered GP99	Imputed	Admixtools
+Stuttgart	2X	-0.0559	-12.511	Imputed Filtered GP99	Imputed	Admixtools
+USR1	2X	-0.0547	-11.975	Imputed Filtered GP99	Imputed	Admixtools
+Ust_Ishim	2X	-0.0635	-9.419	Imputed Filtered GP99	Imputed	Admixtools
+WC1	2X	-0.0495	-10.789	Imputed Filtered GP99	Imputed	Admixtools
+Yamnaya	2X	-0.0574	-12.798	Imputed Filtered GP99	Imputed	Admixtools
+Yana1	2X	-0.0701	-13.068	Imputed Filtered GP99	Imputed	Admixtools
+2H10	2X	-0.0494	-15.471	Imputed Raw	Imputed	Admixtools
+2H11	2X	-0.0552	-13.991	Imputed Raw	Imputed	Admixtools
+atp016	2X	-0.0527	-10.685	Imputed Raw	Imputed	Admixtools
+BA64	2X	-0.0574	-11.868	Imputed Raw	Imputed	Admixtools
+BOT2016	2X	-0.0556	-13.269	Imputed Raw	Imputed	Admixtools
+JP14	2X	-0.0553	-9.33	Imputed Raw	Imputed	Admixtools
+KK1	2X	-0.0435	-9.238	Imputed Raw	Imputed	Admixtools
+Kolyma1	2X	-0.0639	-11.041	Imputed Raw	Imputed	Admixtools
+Loschbour	2X	-0.0602	-14.829	Imputed Raw	Imputed	Admixtools
+Mota	2X	-0.0054	-1.931	Imputed Raw	Imputed	Admixtools
+NE1	2X	-0.0511	-11.225	Imputed Raw	Imputed	Admixtools
+PB675	2X	-0.0576	-9.354	Imputed Raw	Imputed	Admixtools
+sf12	2X	-0.0556	-8.557	Imputed Raw	Imputed	Admixtools
+SRA62	2X	-0.061	-13.328	Imputed Raw	Imputed	Admixtools
+Stuttgart	2X	-0.0526	-12.02	Imputed Raw	Imputed	Admixtools
+USR1	2X	-0.0515	-11.035	Imputed Raw	Imputed	Admixtools
+Ust_Ishim	2X	-0.0627	-8.889	Imputed Raw	Imputed	Admixtools
+WC1	2X	-0.0454	-10.127	Imputed Raw	Imputed	Admixtools
+Yamnaya	2X	-0.0541	-12.589	Imputed Raw	Imputed	Admixtools
+Yana1	2X	-0.067	-13.458	Imputed Raw	Imputed	Admixtools
+2H10	2X	-0.0294	-8.372	Pseudohaploid	Pseudohaploid	Admixtools
+2H11	2X	-0.038	-9.377	Pseudohaploid	Pseudohaploid	Admixtools
+atp016	2X	-0.0276	-5.641	Pseudohaploid	Pseudohaploid	Admixtools
+BA64	2X	-0.0215	-4.578	Pseudohaploid	Pseudohaploid	Admixtools
+BOT2016	2X	-0.0299	-6.547	Pseudohaploid	Pseudohaploid	Admixtools
+JP14	2X	-0.029	-5.039	Pseudohaploid	Pseudohaploid	Admixtools
+KK1	2X	0.0063	1.422	Pseudohaploid	Pseudohaploid	Admixtools
+Kolyma1	2X	-0.0505	-8.741	Pseudohaploid	Pseudohaploid	Admixtools
+Loschbour	2X	-0.0419	-9.143	Pseudohaploid	Pseudohaploid	Admixtools
+Mota	2X	0.0336	10.948	Pseudohaploid	Pseudohaploid	Admixtools
+NE1	2X	-0.0116	-2.685	Pseudohaploid	Pseudohaploid	Admixtools
+PB675	2X	-0.0274	-4.52	Pseudohaploid	Pseudohaploid	Admixtools
+sf12	2X	-0.0423	-5.979	Pseudohaploid	Pseudohaploid	Admixtools
+SRA62	2X	-0.0477	-10.733	Pseudohaploid	Pseudohaploid	Admixtools
+Stuttgart	2X	-0.0176	-3.954	Pseudohaploid	Pseudohaploid	Admixtools
+USR1	2X	-0.0342	-7.494	Pseudohaploid	Pseudohaploid	Admixtools
+Ust_Ishim	2X	-0.0395	-5.541	Pseudohaploid	Pseudohaploid	Admixtools
+WC1	2X	-0.0166	-3.592	Pseudohaploid	Pseudohaploid	Admixtools
+Yamnaya	2X	-0.0272	-5.954	Pseudohaploid	Pseudohaploid	Admixtools
+Yana1	2X	-0.0393	-7.71	Pseudohaploid	Pseudohaploid	Admixtools
+2H10	2X	-0.0526	-14.917	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H11	2X	-0.0581	-12.167	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+atp016	2X	-0.0544	-9.898	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BA64	2X	-0.0584	-10.789	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BOT2016	2X	-0.0551	-10.44	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+JP14	2X	-0.0546	-9.548	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+KK1	2X	-0.0471	-9.762	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Kolyma1	2X	-0.0644	-9.537	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Loschbour	2X	-0.0612	-13.773	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Mota	2X	2.00E-04	0.058	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+NE1	2X	-0.053	-10.723	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+PB675	2X	-0.0581	-8.717	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+sf12	2X	-0.056	-7.214	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+SRA62	2X	-0.0593	-12.538	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Stuttgart	2X	-0.0497	-9.575	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+USR1	2X	-0.0508	-9.59	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Ust_Ishim	2X	-0.0628	-8.021	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+WC1	2X	-0.0488	-9.123	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yamnaya	2X	-0.0552	-9.959	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yana1	2X	-0.0715	-13.204	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H10	2X	-0.043348287	NA	Imputed GP Weighted	Imputed	New Script
+2H11	2X	-0.048552919	NA	Imputed GP Weighted	Imputed	New Script
+BA64	2X	-0.049549821	NA	Imputed GP Weighted	Imputed	New Script
+BOT2016	2X	-0.048152816	NA	Imputed GP Weighted	Imputed	New Script
+JP14	2X	-0.048200212	NA	Imputed GP Weighted	Imputed	New Script
+KK1	2X	-0.035908708	NA	Imputed GP Weighted	Imputed	New Script
+Kolyma1	2X	-0.058062076	NA	Imputed GP Weighted	Imputed	New Script
+Stuttgart	2X	-0.044932964	NA	Imputed GP Weighted	Imputed	New Script
+Loschbour	2X	-0.053754102	NA	Imputed GP Weighted	Imputed	New Script
+Mota	2X	-0.001179449	NA	Imputed GP Weighted	Imputed	New Script
+NE1	2X	-0.042256983	NA	Imputed GP Weighted	Imputed	New Script
+PB675	2X	-0.050460292	NA	Imputed GP Weighted	Imputed	New Script
+SRA62	2X	-0.055041676	NA	Imputed GP Weighted	Imputed	New Script
+USR1	2X	-0.045918851	NA	Imputed GP Weighted	Imputed	New Script
+Ust_Ishim	2X	-0.055748462	NA	Imputed GP Weighted	Imputed	New Script
+WC1	2X	-0.0384271	NA	Imputed GP Weighted	Imputed	New Script
+Yamnaya	2X	-0.04708444	NA	Imputed GP Weighted	Imputed	New Script
+Yana1	2X	-0.05884342	NA	Imputed GP Weighted	Imputed	New Script
+atp016	2X	-0.045704077	NA	Imputed GP Weighted	Imputed	New Script
+sf12	2X	-0.049670126	NA	Imputed GP Weighted	Imputed	New Script
+2H10	2X	-0.0189	-5.903	Imputed Filtered MAF05	Imputed	Admixtools
+2H11	2X	-0.0212	-6.332	Imputed Filtered MAF05	Imputed	Admixtools
+atp016	2X	-0.0204	-4.342	Imputed Filtered MAF05	Imputed	Admixtools
+BA64	2X	-0.0244	-5.582	Imputed Filtered MAF05	Imputed	Admixtools
+BOT2016	2X	-0.0224	-6.638	Imputed Filtered MAF05	Imputed	Admixtools
+JP14	2X	-0.0244	-4.157	Imputed Filtered MAF05	Imputed	Admixtools
+KK1	2X	-0.0121	-2.607	Imputed Filtered MAF05	Imputed	Admixtools
+Kolyma1	2X	-0.0294	-5.65	Imputed Filtered MAF05	Imputed	Admixtools
+Stuttgart	2X	-0.0218	-5.416	Imputed Filtered MAF05	Imputed	Admixtools
+Loschbour	2X	-0.0245	-5.666	Imputed Filtered MAF05	Imputed	Admixtools
+Mota	2X	-0.0033	-1.116	Imputed Filtered MAF05	Imputed	Admixtools
+NE1	2X	-0.0186	-4.434	Imputed Filtered MAF05	Imputed	Admixtools
+PB675	2X	-0.0224	-4.114	Imputed Filtered MAF05	Imputed	Admixtools
+sf12	2X	-0.0213	-3.368	Imputed Filtered MAF05	Imputed	Admixtools
+SRA62	2X	-0.0272	-5.814	Imputed Filtered MAF05	Imputed	Admixtools
+USR1	2X	-0.017	-3.878	Imputed Filtered MAF05	Imputed	Admixtools
+Ust_Ishim	2X	-0.0179	-3.83	Imputed Filtered MAF05	Imputed	Admixtools
+WC1	2X	-0.01	-2.702	Imputed Filtered MAF05	Imputed	Admixtools
+Yamnaya	2X	-0.0202	-4.766	Imputed Filtered MAF05	Imputed	Admixtools
+Yana1	2X	-0.028	-5.749	Imputed Filtered MAF05	Imputed	Admixtools
+2H10	Original Coverage	-0.0471	-14.724	Imputed Filtered GP99	Imputed	Admixtools
+2H11	Original Coverage	-0.0556	-14.131	Imputed Filtered GP99	Imputed	Admixtools
+atp016	Original Coverage	-0.0531	-10.779	Imputed Filtered GP99	Imputed	Admixtools
+BA64	Original Coverage	-0.0578	-12.008	Imputed Filtered GP99	Imputed	Admixtools
+BOT2016	Original Coverage	-0.0557	-13.24	Imputed Filtered GP99	Imputed	Admixtools
+JP14	Original Coverage	-0.0555	-9.357	Imputed Filtered GP99	Imputed	Admixtools
+KK1	Original Coverage	-0.044	-9.422	Imputed Filtered GP99	Imputed	Admixtools
+Kolyma1	Original Coverage	-0.0647	-11.074	Imputed Filtered GP99	Imputed	Admixtools
+Loschbour	Original Coverage	-0.0607	-14.769	Imputed Filtered GP99	Imputed	Admixtools
+Mota	Original Coverage	-0.0055	-1.998	Imputed Filtered GP99	Imputed	Admixtools
+NE1	Original Coverage	-0.0515	-11.201	Imputed Filtered GP99	Imputed	Admixtools
+PB675	Original Coverage	-0.058	-9.44	Imputed Filtered GP99	Imputed	Admixtools
+sf12	Original Coverage	-0.0558	-8.568	Imputed Filtered GP99	Imputed	Admixtools
+SRA62	Original Coverage	-0.0614	-13.453	Imputed Filtered GP99	Imputed	Admixtools
+Stuttgart	Original Coverage	-0.0524	-11.99	Imputed Filtered GP99	Imputed	Admixtools
+USR1	Original Coverage	-0.052	-11.34	Imputed Filtered GP99	Imputed	Admixtools
+Ust_Ishim	Original Coverage	-0.0652	-8.938	Imputed Filtered GP99	Imputed	Admixtools
+WC1	Original Coverage	-0.0456	-10.19	Imputed Filtered GP99	Imputed	Admixtools
+Yamnaya	Original Coverage	-0.0545	-12.602	Imputed Filtered GP99	Imputed	Admixtools
+Yana1	Original Coverage	-0.0687	-13.8	Imputed Filtered GP99	Imputed	Admixtools
+2H10	Original Coverage	-0.0409	-13.002	Imputed Raw	Imputed	Admixtools
+2H11	Original Coverage	-0.0546	-13.971	Imputed Raw	Imputed	Admixtools
+atp016	Original Coverage	-0.0519	-10.597	Imputed Raw	Imputed	Admixtools
+BA64	Original Coverage	-0.0551	-11.539	Imputed Raw	Imputed	Admixtools
+BOT2016	Original Coverage	-0.0543	-12.942	Imputed Raw	Imputed	Admixtools
+JP14	Original Coverage	-0.0544	-9.135	Imputed Raw	Imputed	Admixtools
+KK1	Original Coverage	-0.0403	-8.632	Imputed Raw	Imputed	Admixtools
+Kolyma1	Original Coverage	-0.0638	-10.951	Imputed Raw	Imputed	Admixtools
+Loschbour	Original Coverage	-0.0599	-14.577	Imputed Raw	Imputed	Admixtools
+Mota	Original Coverage	-0.0011	-0.415	Imputed Raw	Imputed	Admixtools
+NE1	Original Coverage	-0.0492	-10.795	Imputed Raw	Imputed	Admixtools
+PB675	Original Coverage	-0.0564	-9.183	Imputed Raw	Imputed	Admixtools
+sf12	Original Coverage	-0.0558	-8.523	Imputed Raw	Imputed	Admixtools
+SRA62	Original Coverage	-0.0603	-13.204	Imputed Raw	Imputed	Admixtools
+Stuttgart	Original Coverage	-0.0504	-11.461	Imputed Raw	Imputed	Admixtools
+USR1	Original Coverage	-0.0512	-11.048	Imputed Raw	Imputed	Admixtools
+Ust_Ishim	Original Coverage	-0.0648	-8.889	Imputed Raw	Imputed	Admixtools
+WC1	Original Coverage	-0.0434	-9.679	Imputed Raw	Imputed	Admixtools
+Yamnaya	Original Coverage	-0.0537	-12.439	Imputed Raw	Imputed	Admixtools
+Yana1	Original Coverage	-0.0678	-13.787	Imputed Raw	Imputed	Admixtools
+2H10	Original Coverage	-0.0296	-9.206	Pseudohaploid	Pseudohaploid	Admixtools
+2H11	Original Coverage	-0.0367	-9.906	Pseudohaploid	Pseudohaploid	Admixtools
+atp016	Original Coverage	-0.0265	-5.197	Pseudohaploid	Pseudohaploid	Admixtools
+BA64	Original Coverage	-0.0221	-4.68	Pseudohaploid	Pseudohaploid	Admixtools
+BOT2016	Original Coverage	-0.0297	-6.712	Pseudohaploid	Pseudohaploid	Admixtools
+JP14	Original Coverage	-0.0288	-4.937	Pseudohaploid	Pseudohaploid	Admixtools
+KK1	Original Coverage	0.006	1.308	Pseudohaploid	Pseudohaploid	Admixtools
+Kolyma1	Original Coverage	-0.0501	-8.358	Pseudohaploid	Pseudohaploid	Admixtools
+Loschbour	Original Coverage	-0.0423	-9.822	Pseudohaploid	Pseudohaploid	Admixtools
+Mota	Original Coverage	0.0321	11.672	Pseudohaploid	Pseudohaploid	Admixtools
+NE1	Original Coverage	-0.0122	-2.787	Pseudohaploid	Pseudohaploid	Admixtools
+PB675	Original Coverage	-0.0269	-4.689	Pseudohaploid	Pseudohaploid	Admixtools
+sf12	Original Coverage	-0.0422	-6.245	Pseudohaploid	Pseudohaploid	Admixtools
+SRA62	Original Coverage	-0.0479	-10.034	Pseudohaploid	Pseudohaploid	Admixtools
+Stuttgart	Original Coverage	-0.0202	-4.877	Pseudohaploid	Pseudohaploid	Admixtools
+USR1	Original Coverage	-0.0328	-7.023	Pseudohaploid	Pseudohaploid	Admixtools
+Ust_Ishim	Original Coverage	-0.0396	-5.431	Pseudohaploid	Pseudohaploid	Admixtools
+WC1	Original Coverage	-0.0164	-3.816	Pseudohaploid	Pseudohaploid	Admixtools
+Yamnaya	Original Coverage	-0.0278	-6.143	Pseudohaploid	Pseudohaploid	Admixtools
+Yana1	Original Coverage	-0.0376	-7.432	Pseudohaploid	Pseudohaploid	Admixtools
+2H10	Original Coverage	-0.0522	-14.657	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H11	Original Coverage	-0.0579	-12.953	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+atp016	Original Coverage	-0.0514	-9.484	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BA64	Original Coverage	-0.0563	-11.188	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+BOT2016	Original Coverage	-0.0531	-11.023	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+JP14	Original Coverage	-0.0527	-8.369	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+KK1	Original Coverage	-0.0435	-8.525	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Kolyma1	Original Coverage	-0.063	-9.883	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Loschbour	Original Coverage	-0.0577	-14.089	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Mota	Original Coverage	-1.00E-04	-0.037	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+NE1	Original Coverage	-0.0513	-11.773	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+PB675	Original Coverage	-0.0573	-8.686	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+sf12	Original Coverage	-0.0571	-8.209	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+SRA62	Original Coverage	-0.0606	-12.096	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Stuttgart	Original Coverage	-0.0518	-12.134	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+USR1	Original Coverage	-0.0509	-9.843	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Ust_Ishim	Original Coverage	-0.0622	-8.44	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+WC1	Original Coverage	-0.044	-9.959	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yamnaya	Original Coverage	-0.0589	-10.57	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+Yana1	Original Coverage	-0.0653	-11.544	Pseudohaploid Only Transversions	Pseudohaploid	Admixtools
+2H10	Original Coverage	-0.036019512	NA	Imputed GP Weighted	Imputed	New Script
+2H11	Original Coverage	-0.049542398	NA	Imputed GP Weighted	Imputed	New Script
+BA64	Original Coverage	-0.049447999	NA	Imputed GP Weighted	Imputed	New Script
+BOT2016	Original Coverage	-0.049097783	NA	Imputed GP Weighted	Imputed	New Script
+JP14	Original Coverage	-0.049463616	NA	Imputed GP Weighted	Imputed	New Script
+KK1	Original Coverage	-0.035023204	NA	Imputed GP Weighted	Imputed	New Script
+Kolyma1	Original Coverage	-0.059344817	NA	Imputed GP Weighted	Imputed	New Script
+Loschbour	Original Coverage	-0.055222992	NA	Imputed GP Weighted	Imputed	New Script
+Mota	Original Coverage	6.51E-05	NA	Imputed GP Weighted	Imputed	New Script
+NE1	Original Coverage	-0.043246211	NA	Imputed GP Weighted	Imputed	New Script
+PB675	Original Coverage	-0.051556961	NA	Imputed GP Weighted	Imputed	New Script
+SRA62	Original Coverage	-0.055233741	NA	Imputed GP Weighted	Imputed	New Script
+Stuttgart	Original Coverage	-0.045177946	NA	Imputed GP Weighted	Imputed	New Script
+USR1	Original Coverage	-0.047235557	NA	Imputed GP Weighted	Imputed	New Script
+Ust_Ishim	Original Coverage	-0.06103547	NA	Imputed GP Weighted	Imputed	New Script
+WC1	Original Coverage	-0.038689913	NA	Imputed GP Weighted	Imputed	New Script
+Yamnaya	Original Coverage	-0.049225442	NA	Imputed GP Weighted	Imputed	New Script
+Yana1	Original Coverage	-0.063283004	NA	Imputed GP Weighted	Imputed	New Script
+atp016	Original Coverage	-0.046788675	NA	Imputed GP Weighted	Imputed	New Script
+sf12	Original Coverage	-0.051071675	NA	Imputed GP Weighted	Imputed	New Script
+2H10	Original Coverage	-1.87E-02	-5.856	Imputed Filtered MAF05	Imputed	Admixtools
+2H11	Original Coverage	-0.0212	-6.377	Imputed Filtered MAF05	Imputed	Admixtools
+WC1	Original Coverage	-0.01	-2.698	Imputed Filtered MAF05	Imputed	Admixtools
+BA64	Original Coverage	-0.0245	-5.65	Imputed Filtered MAF05	Imputed	Admixtools
+USR1	Original Coverage	-0.0171	-3.929	Imputed Filtered MAF05	Imputed	Admixtools
+KK1	Original Coverage	-0.0119	-2.592	Imputed Filtered MAF05	Imputed	Admixtools
+sf12	Original Coverage	-0.0214	-3.343	Imputed Filtered MAF05	Imputed	Admixtools
+NE1	Original Coverage	-0.0185	-4.392	Imputed Filtered MAF05	Imputed	Admixtools
+Stuttgart	Original Coverage	-0.0217	-5.335	Imputed Filtered MAF05	Imputed	Admixtools
+Loschbour	Original Coverage	-0.0248	-5.695	Imputed Filtered MAF05	Imputed	Admixtools
+atp016	Original Coverage	-0.0205	-4.398	Imputed Filtered MAF05	Imputed	Admixtools
+JP14	Original Coverage	-0.0246	-4.18	Imputed Filtered MAF05	Imputed	Admixtools
+PB675	Original Coverage	-0.0224	-4.127	Imputed Filtered MAF05	Imputed	Admixtools
+SRA62	Original Coverage	-0.0274	-5.859	Imputed Filtered MAF05	Imputed	Admixtools
+Kolyma1	Original Coverage	-0.0297	-5.672	Imputed Filtered MAF05	Imputed	Admixtools
+Yana1	Original Coverage	-0.0285	-5.892	Imputed Filtered MAF05	Imputed	Admixtools
+BOT2016	Original Coverage	-0.0223	-6.606	Imputed Filtered MAF05	Imputed	Admixtools
+Yamnaya	Original Coverage	-0.0201	-4.737	Imputed Filtered MAF05	Imputed	Admixtools
+Ust_Ishim	Original Coverage	-0.0186	-3.897	Imputed Filtered MAF05	Imputed	Admixtools
+Mota	Original Coverage	-0.0029	-1.004	Imputed Filtered MAF05	Imputed	Admixtools
+2H10	Original Coverage	-0.0532	-15.753	Genotype Calls	Genotype Calls	Admixtools
+2H11	Original Coverage	-0.0549	-14.408	Genotype Calls	Genotype Calls	Admixtools
+atp016	Original Coverage	-0.0615	-12.124	Genotype Calls	Genotype Calls	Admixtools
+BA64	Original Coverage	-0.0637	-14.196	Genotype Calls	Genotype Calls	Admixtools
+BOT2016	Original Coverage	-0.059	-15.594	Genotype Calls	Genotype Calls	Admixtools
+JP14	Original Coverage	-0.0577	-9.399	Genotype Calls	Genotype Calls	Admixtools
+KK1	Original Coverage	-0.0548	-11.545	Genotype Calls	Genotype Calls	Admixtools
+Kolyma1	Original Coverage	-0.0683	-11.847	Genotype Calls	Genotype Calls	Admixtools
+Loschbour	Original Coverage	-0.0592	-13.65	Genotype Calls	Genotype Calls	Admixtools
+Mota	Original Coverage	-0.0267	-7.078	Genotype Calls	Genotype Calls	Admixtools
+NE1	Original Coverage	-0.0535	-10.984	Genotype Calls	Genotype Calls	Admixtools
+PB675	Original Coverage	-0.059	-9.593	Genotype Calls	Genotype Calls	Admixtools
+sf12	Original Coverage	-0.0539	-7.921	Genotype Calls	Genotype Calls	Admixtools
+SRA62	Original Coverage	-0.0631	-12.965	Genotype Calls	Genotype Calls	Admixtools
+Stuttgart	Original Coverage	-0.0545	-12.509	Genotype Calls	Genotype Calls	Admixtools
+USR1	Original Coverage	-0.0537	-10.99	Genotype Calls	Genotype Calls	Admixtools
+Ust_Ishim	Original Coverage	-0.0628	-9.337	Genotype Calls	Genotype Calls	Admixtools
+WC1	Original Coverage	-0.0583	-11.533	Genotype Calls	Genotype Calls	Admixtools
+Yamnaya	Original Coverage	-0.0548	-11.48	Genotype Calls	Genotype Calls	Admixtools
+Yana1	Original Coverage	-0.0698	-12.997	Genotype Calls	Genotype Calls	Admixtools
+2H10	Original Coverage	-0.0411	-12.31	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+2H11	Original Coverage	-0.0499	-11.003	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+atp016	Original Coverage	-0.045	-8.495	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+BA64	Original Coverage	-0.0517	-10.094	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+BOT2016	Original Coverage	-0.0504	-10.982	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+JP14	Original Coverage	-0.0466	-7.46	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+KK1	Original Coverage	-0.0414	-7.482	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+Kolyma1	Original Coverage	-0.0597	-9.08	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+Loschbour	Original Coverage	-0.0481	-10.587	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+Mota	Original Coverage	-0.0089	-1.484	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+NE1	Original Coverage	-0.0438	-7.836	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+PB675	Original Coverage	-0.0483	-7.88	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+sf12	Original Coverage	-0.0481	-6.474	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+SRA62	Original Coverage	-0.0515	-10.312	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+Stuttgart	Original Coverage	-0.0417	-8.873	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+USR1	Original Coverage	-0.0402	-7.377	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+Ust_Ishim	Original Coverage	-0.0552	-8.837	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+WC1	Original Coverage	-0.0429	-8.871	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+Yamnaya	Original Coverage	-0.0496	-8.412	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+Yana1	Original Coverage	-0.0631	-10.891	Genotype Calls Only Transversions	Genotype Calls	Admixtools
+2H10	Original Coverage	-0.0225	-6.185	Imputed Filtered MAF05	Genotype Calls	Admixtools
+2H11	Original Coverage	-0.0221	-6.424	Imputed Filtered MAF05	Genotype Calls	Admixtools
+atp016	Original Coverage	-0.0279	-5.58	Imputed Filtered MAF05	Genotype Calls	Admixtools
+BA64	Original Coverage	-0.0298	-6.878	Imputed Filtered MAF05	Genotype Calls	Admixtools
+BOT2016	Original Coverage	-0.0259	-7.485	Imputed Filtered MAF05	Genotype Calls	Admixtools
+JP14	Original Coverage	-0.0266	-4.33	Imputed Filtered MAF05	Genotype Calls	Admixtools
+KK1	Original Coverage	-0.0213	-4.497	Imputed Filtered MAF05	Genotype Calls	Admixtools
+Kolyma1	Original Coverage	-0.0347	-6.277	Imputed Filtered MAF05	Genotype Calls	Admixtools
+Loschbour	Original Coverage	-0.0252	-5.313	Imputed Filtered MAF05	Genotype Calls	Admixtools
+Mota	Original Coverage	-0.0147	-3.726	Imputed Filtered MAF05	Genotype Calls	Admixtools
+NE1	Original Coverage	-0.0209	-4.473	Imputed Filtered MAF05	Genotype Calls	Admixtools
+PB675	Original Coverage	-0.0245	-4.191	Imputed Filtered MAF05	Genotype Calls	Admixtools
+sf12	Original Coverage	-0.0209	-3.103	Imputed Filtered MAF05	Genotype Calls	Admixtools
+SRA62	Original Coverage	-0.0302	-5.84	Imputed Filtered MAF05	Genotype Calls	Admixtools
+Stuttgart	Original Coverage	-0.0231	-5.577	Imputed Filtered MAF05	Genotype Calls	Admixtools
+USR1	Original Coverage	-0.0202	-4.259	Imputed Filtered MAF05	Genotype Calls	Admixtools
+Ust_Ishim	Original Coverage	-0.021	-4.119	Imputed Filtered MAF05	Genotype Calls	Admixtools
+WC1	Original Coverage	-2.30E-02	-4.849	Imputed Filtered MAF05	Genotype Calls	Admixtools
+Yamnaya	Original Coverage	-2.14E-02	-4.418	Imputed Filtered MAF05	Genotype Calls	Admixtools
+Yana1	Original Coverage	-3.27E-02	-6.248	Imputed Filtered MAF05	Genotype Calls	Admixtools

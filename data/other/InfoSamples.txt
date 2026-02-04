@@ -1,0 +1,21 @@
+IID	Alternative ID	Population	Date mean in BP in years before 1950 CE [OxCal mu for a direct radiocarbon date, and average of range for a contextual date]	Country	Lat.	Long.	Coverage (X)	Study	UDG	Data source
+2H10	2H10	European Neolithic	5165	France	48.85847	3.995887	14.8702	seguin-orlando_2021	Y	Shotgun
+2H11	2H11	European Neolithic	5162	France	48.85847	3.995887	19.1261	seguin-orlando_2021	Y	Shotgun
+atp016	atp016	European Neolithic	4971	Spain	42.35267	-3.51832	11.7963	valdiosera_2018	N	Shotgun
+BA64	BA64	European Neolithic	3186		54.54	-5.95	10.217	cassidy_2016	N	Shotgun
+BOT2016	BOT2016	Steppe	5396	Kazakhstan	53.30598	67.64817	13.3661	damgaard_2018B_horseherder	N	Shotgun
+JP14	JP14	European Neolithic	5483	Ireland	52.52128	-7.16597	16.2993	cassidy_2020	Y	Shotgun
+KK1	KK1	Caucasus Hunter-Gatherer	9678	Georgia	42.28	43.28	11.9827	jones_2015	N	Shotgun
+Kolyma1	Kolyma1	Ancient Siberian	9775	Russia	68.6	159.1	13.5775	sikora_2019	N	Shotgun
+LBK	Stuttgart	European Neolithic	7168	Germany	48.78	9.18	14.4222	lazaridis_2014	Y	Shotgun
+Loschbour	Loschbour	European Mesolithic	8025		49.81	6.4	16.1928	lazaridis_2014	Y	Shotgun
+Mota	Mota	African Stone Age	4470	Ethiopia	6.797495	38.20785	11.0346	gallego-llorente_2016A_ethiopian	N	Shotgun
+NE1	NE1	European Neolithic	7146	Hungary	47.84646	21.14943	18.2168	gamba_2014	Y	Shotgun
+PB675	PB675	European Neolithic	5171	Ireland	52.9855	-9.11145	15.4964	cassidy_2020	Y	Shotgun
+sf12	sf12	European Mesolithic	8895	Sweden	57.285	17.971	43.0956	gunther_2018	Y	Shotgun
+SRA62	SRA62	European Mesolithic	6001	Ireland	54.29699	-8.33599	12.957	cassidy_2020	Y	Shotgun
+USR1	USR1	Ancient Berinigian	11425	USA	64.22	-145.7	15.3151	moreno-meyer_2018A_beringia	Y	Shotgun
+UstIshim	Ust_Ishim	Pre-LGM Eurasian	44366	Russia	57.7	71.1	33.4629	fu_2014	Y	Shotgun
+WC1	WC1	Iranian Neolithic	9214	Iran	34.6129	47.1057	10.0661	broushaki_2016	N	Shotgun
+Yamnaya	Yamnaya	Steppe	4890		49.13422	75.85182	24.6828	damgaard_2018B_horseherder	N	Shotgun
+Yana_old	Yana1	Pre-LGM Eurasian	31850	Russia	70.72	135.42	23.5256	sikora_2019	N	Shotgun

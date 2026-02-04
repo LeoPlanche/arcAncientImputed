@@ -1,0 +1,15 @@
+Gene	Trait	Archaic	Population	Publication	Chromosome	Start	End
+BNC2	Pigmentation	Neanderthal	Europeans	Jacobs et al. 2013	9	16,409,501	16,870,841
+EPAS1	Hypoxia tolerance	Denisova	Tibetans	Huerta-Sanchez et al. 2014	2	46520806	46613836
+MUC19	Immunity	Denisova	Americans	Witt et al. 2023	12	40787197	40964632
+OAS1	OAS1				12	113343661	113371024
+OAS2	OAS2				12	113416200	113449528
+OAS3	OAS3				12	113375856	113414265
+POU2F3	Pigmentation	Neanderthal	South & East Asians	Vernot and Akey 2014	11	120107349	120190653
+SLC16A11	Type 2 diabetes	Neanderthal	Americans	Racimo, Marnetto et al. 2017	17	6944940	6947411
+STAT2	Immunity	Neanderthal	Papua New Guinea	Mendez et al. 2012	12	56735381	56753939
+TBX15	Lipid metabolism	Denisova	Inuit	Racimo et al. 2017	1	119425669	119532179
+TLR1/6/10	TLR1				4	38792298	38858438
+TLR1/6/10	TLR6				4	38825336	38858438
+TLR1/6/10	TLR10				4	38773860	38784611
+WARS2	Lipid metabolism	Denisova	Inuit	Racimo et al. 2017	1	119,573,839	119,683,294
