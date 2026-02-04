@@ -44,7 +44,9 @@ The introgression map is in `data/maps/IntrogressionMaps.csv`, it contains the a
 | `SimilarityPrivateImp_Denisovan`              | Ratio of shared SNPs to `hmmPositionsImp`          |
 
 
-## Computing the dstat, using GP
+## Scripts
+
+# Computing the dstat, using GP
 
 The script to compute the D-statistics using GP is available in `src/AlleleFrequencies`. To use it, we run:
 
