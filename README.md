@@ -58,3 +58,47 @@ Only the population P2 is considered as imputed, for P1, P3 and P4, allele frequ
 
 Test data with three ancient individuals and chromosome 2 is available here:
 https://drive.google.com/drive/folders/1GQlXtcmGsybFq6E94M4BF3eesvqhPLdf?usp=sharing
+
+### Local archaic ancestry inference
+
+To identify the introgression segments in each individual and coverage we used an in-house version of hmmix. The script main.py can be found in the `src/Segment` folder in this repository.
+
+As described in the script, we first convert all the vcf files in a pickle file format, we then run the hmm function to determine the introgressed segments and compute similarities to reference archaic genomes.
+
+The script is not intended to be run as a standalone program; it is designed as part of a larger analysis pipeline where the pickle format allows to speedup the process of multiple experiments.
+
+In order to generate the map, the script should be launched as such:
+```
+main.py --read-vcf-archaic  --myfile *name_vcf_archaic*.vcf.gz
+main.py --read-vcf  --myfile *name_vcf_sample*.vcf.gz --name_dataset *name of the dataset*
+main.py --read-outgroup
+main.py --run-hmm --name_dataset *name of the dataset* --chrom *chromosome number*
+```
+
+Notes:
+
+The name of the outgroup vcf is hardcoded in the script and can be directly downloaded from: https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
+
+The name of the african samples to be extracted from these vcf are also directly written in utils.py
+
+It is possible to change these to use a different outgroup.
+
+This script does not create the output directories, before running it make sure they exist, in particular: 
+
+```
+mkdir pickledArchaic
+for i in {1..22}; do mkdir pickledArchaic/chr${i}; done
+mkdir pickledAfricans
+for i in {1..22}; do mkdir pickledAfricans/chr${i}; done
+mkdir pickledData
+mkdir pickledData/*name dataset*
+for i in {1..22}; do mkdir pickledData/*name dataset*/chr${i}; done
+mkdir maps
+mkdir maps/*name dataset*
+for i in {1..22}; do mkdir maps/*name dataset*/chr${i}; done
+```
+
+The output will be one map per individual and per chromosome, it is possible to merge these maps using:
+```
+main.py --merge-maps --name_dataset *name of the dataset*
+```
