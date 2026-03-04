@@ -1,0 +1,41 @@
+Demo version of the D-statistic script
+
+To test the new D-statistic approach, we prepared a demo version that can be run on a small dataset. The demo includes data from chromosome 2 for three individuals in our dataset: 2H10 (France, 5165 BCE), Mota (Ethiopia, 4470 BCE), and Ust’Ishim (Russia, 44,366 BCE).
+The script dstat.py is written in Python 3 and requires only two standard libraries: argparse and gzip. It is a standalone script and does not require installation.
+This demo version was executed from the terminal on Ubuntu 22.04.5 LTS using a laptop with 32 GB of RAM.
+
+Running the demo
+To run the demo version, use the following commands.
+
+For 2H10
+python3 dstat.py \
+-p1 1000GP_YRI_ESN_MSL_ChimpImputedSNPs_Chr2.vcf.gz \
+-p2 2H10_Raw_1X_Chr2.vcf.gz \
+-p3 Vindija_ChimpImputedSNPs_Chr2.vcf.gz \
+-p4 hg19_panTro6.archaicSNPs.annotated_Chr2.vcf.gz \
+-out 2H10_Chr2_Vindija.txt
+
+For Ust’Ishim
+python3 dstat.py \
+-p1 1000GP_YRI_ESN_MSL_ChimpImputedSNPs_Chr2.vcf.gz \
+-p2 Ust_Ishim_Raw_1X_Chr2.vcf.gz \
+-p3 Vindija_ChimpImputedSNPs_Chr2.vcf.gz \
+-p4 hg19_panTro6.archaicSNPs.annotated_Chr2.vcf.gz \
+-out Ust_Ishim_Chr2_Vindija.txt
+
+For Mota
+python3 dstat.py \
+-p1 1000GP_YRI_ESN_MSL_ChimpImputedSNPs_Chr2.vcf.gz \
+-p2 Mota_Raw_1X_Chr2.vcf.gz \
+-p3 Vindija_ChimpImputedSNPs_Chr2.vcf.gz \
+-p4 hg19_panTro6.archaicSNPs.annotated_Chr2.vcf.gz \
+-out Mota_Chr2_Vindija.txt
+
+Runtime
+Each run takes approximately 8 minutes on the system described above.
+
+Output
+The output is a text file containing two columns:
+The name of the individual in the VCF file
+The calculated D-statistic value
+Example results are provided in the Results folder.
