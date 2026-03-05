@@ -4,6 +4,9 @@ To test the new D-statistic approach, we prepared a demo version that can be run
 The script dstat.py is written in Python 3 and requires only two standard libraries: argparse and gzip. It is a standalone script and does not require installation.
 This demo version was executed from the terminal on Ubuntu 22.04.5 LTS using a laptop with 32 GB of RAM.
 
+Download
+A compressed folder containing all the files required to run the demo version can be downloaded from Zenodo (DOI: 10.5281/zenodo.16365479).
+
 Running the demo
 To run the demo version, use the following commands.
 
