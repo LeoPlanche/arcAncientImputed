@@ -75,20 +75,23 @@ main.py --read-outgroup  --directory *name of the directory containing the outgr
 main.py --run-hmm --name-dataset *name of the dataset* --chrom *chromosome number* 
 ```
 
-Notes:
+#### Notes:
 
+#### Archaic vcf  processing
 ```--read-vcf-archaic``` assumes that the vcf given as input contains all chromosomes.
 
 If multiple archaic individuals are in the same vcf, all the statistics (similarity, archaic snps) will be computed for all archaic individuals.
 
 It is possible to run the command multiple time if different archaic individuals are present in different vcfs.
 
+#### Target data vcf processing
 ```--read-vcf``` assumes that the vcf given as input contains all chromosomes.
 
 If multiple individuals are in the same vcf, all the archaic segments and statistics will be computed for all individuals.
 
 It is possible to run the command multiple time if different individuals are present in different vcfs.
 
+#### Outgroup vcf processing
 The name of the outgroup vcfs is hardcoded in the script and can be directly downloaded from:
 
 https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
@@ -99,6 +102,7 @@ The name of the african samples to be extracted from these vcf are also directly
 
 It is possible to change these to use a different outgroup.
 
+#### Output
 The output directory will be created at ```../out``` and the maps will be in ```../out/maps/*name of the dataset*```
 
 The output will be one map per individual and per chromosome, it is possible to merge these maps using:
