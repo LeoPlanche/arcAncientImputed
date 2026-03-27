@@ -92,7 +92,7 @@ If multiple individuals are in the same vcf, all the archaic segments and statis
 It is possible to run the command multiple time if different individuals are present in different vcfs.
 
 #### Outgroup vcf processing
-The name of the outgroup vcfs is hardcoded in the script and can be directly downloaded from:
+The name of the outgroup vcfs is hardcoded in the script and the files (one per chromosome) can be directly downloaded from:
 
 https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
 
