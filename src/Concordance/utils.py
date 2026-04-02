@@ -119,7 +119,6 @@ def read_vcf_raf_gp(nameFile,chrom):
             res = []
             lInd = []
             for elt in sline[9:]:
-                print(elt,end=" ")
                 var = []
                 var.append([])
                 var.append([])
@@ -134,19 +133,24 @@ def read_vcf_raf_gp(nameFile,chrom):
             if lInd==[]:
                 return []
 
-        elif (sline[0]==chrom):
+        elif read_chrom(sline[0]) == chrom:
             ssline = sline[7].split(';')
             RAF = -1
             for elt in ssline:
                 if elt[:3]=='RAF':
-                    RAF=float(elt[4:])
+                    RAF = float(elt[4:])
+            ssline = sline[8].split(':')
+            idx_GP = -1
+            for i,elt in enumerate(ssline):
+                if elt=='GP':
+                    idx_GP = i
             for i,elt in enumerate(sline[9:]):
                 if elt[0] != ".":
                     res[i][0].append(int(sline[1]))
                     res[i][1].append(int(elt[0]))
                     res[i][2].append(int(elt[2]))
                     res[i][3].append(RAF)
-                    slineGP=(elt.split(':')[2]).split(',')
+                    slineGP = (elt.split(':')[idx_GP]).split(',')
                     res[i][4].append([float(slineGP[0]),float(slineGP[1]),float(slineGP[2])])
 
     return [res,lInd]

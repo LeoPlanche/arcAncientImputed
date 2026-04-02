@@ -4,6 +4,8 @@ import random
 import argparse
 import pandas as pd
 import utils
+from pathlib import Path
+
 
 
 def dicho(t,elt):
@@ -155,64 +157,64 @@ def compare_private_archaicSNPs(t,seq_imputed,seq_original,seq_outgroup,seq_arch
 
 
  # We look at all the SNPs in the chromosome and write their r² score depending on if the SNP is archaic or not.
-def imputation_quality_archaic_SNPs(archaic='Neanderthal'):
+def imputation_quality_archaic_SNPs():
     coverage = args.coverage
     chrom = args.chrom
-    private = False
-    out_archaic=  open(f'analysisRAF/{archaic}/{coverage}/archaic/{coverage}_{chrom}_archaic','w')
-    out_nonarchaic =  open(f'analysisRAF/{archaic}/{coverage}/nonArchaic/{coverage}_{chrom}_nonArchaic','w')
-    out_archaic.write(f'RAF\tmean_squared_error\n')
-    out_nonarchaic.write(f'RAF\tmean_squared_error\n')
 
-    outgroup = pickle.load(open(f"pickledAfricans/chr{chrom}/outgroup","rb"))
+    path = Path(f'../out/concordance/{coverage}/archaic')
+    path.mkdir(parents=True, exist_ok=True)
+    path = Path(f'./out/concordance/{coverage}/nonArchaic')
+    path.mkdir(parents=True, exist_ok=True)
 
-    if archaic == 'Neandertal':
-        with open(f'pickledArchaic/chr{chrom}/Vindija33.19', 'rb') as fp:
+    outgroup = pickle.load(open(f"../out/pickledAfricans/chr{chrom}/outgroup","rb"))
+
+    directory_archaic = f'../out/pickledArchaic/chr{chrom}'
+    for filename in os.listdir(directory_archaic):
+        with open(os.path.join(directory_archaic, filename),'rb') as fp:
+            out_archaic =  open(f'../out/concordance/{coverage}/archaic/{coverage}_{filename}_{chrom}_archaic','w')
+            out_nonarchaic =  open(f'../out/concordance/{coverage}/nonArchaic/{coverage}_{filename}_{chrom}_nonArchaic','w')
+            out_archaic.write(f'RAF\tmean_squared_error\n')
+            out_nonarchaic.write(f'RAF\tmean_squared_error\n')
             seq_archaic = pickle.load(fp)
-    elif archaic == 'Denisovan':
-        with open(f'pickledArchaic/chr{chrom}/Denisova','rb') as fp:
-            seq_archaic = pickle.load(fp)
-    elif archaic == 'DenisovanPrivate':
-        with open(f'pickledArchaic/chr{chrom}/Vindija33.19', 'rb') as fp:
-            seq_neanderthal = pickle.load(fp)
-        with open(f'pickledArchaic/chr{chrom}/Denisova','rb') as fp:
-            seq_denisovan = pickle.load(fp)
-        private = True
 
-    directory = f'pickledData/{coverage}/chr{chrom}'
-    
-    for filename in os.listdir(directory):
-        try:
-            with open(os.path.join(directory, filename),'rb') as fp:
-                seq_imputed = pickle.load(fp)
-                with open(f'pickledData/Original/chr{chrom}/{filename}', 'rb') as fp:
-                    seq_original = pickle.load(fp)
-                if not private:
-                    compare_archaicSNPs([int(seq_imputed[0][0]),int(seq_imputed[0][-1])],seq_imputed,seq_original,outgroup,\
-                                                      seq_archaic,out_archaic,out_nonarchaic)
-                else:
-                    compare_private_archaicSNPs([int(seq_imputed[0][0]),int(seq_imputed[0][-1])],seq_imputed,seq_original,outgroup,\
-                                                             seq_denisovan,seq_neanderthal,out_archaic,out_nonarchaic)
-
-        except IOError:
-            print(f'error cannot open')
-    out_archaic.close()
-    out_nonarchaic.close()
+            directory = f'../out/pickledData/{coverage}/chr{chrom}'
+            
+            for filename in os.listdir(directory):
+                try:
+                    with open(os.path.join(directory, filename),'rb') as fp:
+                        seq_imputed = pickle.load(fp)
+                        try:
+                            with open(f'../out/pickledData/original/chr{chrom}/{filename}', 'rb') as fp:
+                                seq_original = pickle.load(fp)
+                                compare_archaicSNPs([int(seq_imputed[0][0]),int(seq_imputed[0][-1])],seq_imputed,seq_original,outgroup,\
+                                                    seq_archaic,out_archaic,out_nonarchaic)
+                        except IOError:
+                            print(f'The reference non imputed individual {filename} could not be opened, make sure you created it using --read-vcf and --coverage original')
+                except IOError:
+                    print(f'error cannot open')
+            out_archaic.close()
+            out_nonarchaic.close()
 
 
  # We look at all the SNPs in the chromosome and write their imputation quality score depending on if they are in an archaic region or not.
 def imputation_quality_archaic_segments():
     coverage = args.coverage
     chrom = args.chrom
+    path = Path(f'../out/concordance/{coverage}/unshared_allSNPs')
+    path.mkdir(parents=True, exist_ok=True)
+    path = Path(f'../out/concordance/{coverage}/shared_allSNPs')
+    path.mkdir(parents=True, exist_ok=True)
+    path = Path(f'../out/concordance/{coverage}/nonintrogressed_allSNPs')
+    path.mkdir(parents=True, exist_ok=True)
 
-    out_archaicnew =  open(f'analysisRAF/{coverage}/unshared_allSNPs/{coverage}_{chrom}_archaicnew_allSNPs','w')
-    out_archaicshared =  open(f'analysisRAF/{coverage}/shared_allSNPs/{coverage}_{chrom}_archaicshared_allSNPs','w')
-    out_nonintrogressed =  open(f'analysisRAF/{coverage}/nonintrogressed_allSNPs/{coverage}_{chrom}_nonintrogressed_allSNPs','w')
+    out_archaicnew =  open(f'../out/concordance/{coverage}/unshared_allSNPs/{coverage}_{chrom}_archaicnew_allSNPs','w')
+    out_archaicshared =  open(f'../out/concordance/{coverage}/shared_allSNPs/{coverage}_{chrom}_archaicshared_allSNPs','w')
+    out_nonintrogressed =  open(f'../out/concordance/{coverage}/nonintrogressed_allSNPs/{coverage}_{chrom}_nonintrogressed_allSNPs','w')
     out_archaicnew.write(f'RAF\tmean_squared_error\n')
     out_archaicshared.write(f'RAF\tmean_squared_error\n')
     out_nonintrogressed.write(f'RAF\tmean_squared_error\n')
 
-    directory = f'pickledData/{coverage}/chr{chrom}'
+    directory = f'../out/pickledData/{coverage}/chr{chrom}'
 
     segments_imputed = {}
     segments_original = {}
@@ -231,7 +233,7 @@ def imputation_quality_archaic_segments():
         try:
             with open(os.path.join(directory, filename),'rb') as fp:
                 seq_imputed = pickle.load(fp)
-                with open(f'pickledData/Original/chr{chrom}/{filename}', 'rb') as fp:
+                with open(f'../out/pickledData/original/chr{chrom}/{filename}', 'rb') as fp:
                     seq_original = pickle.load(fp)
  
 
@@ -242,12 +244,12 @@ def imputation_quality_archaic_segments():
                         compare_all_SNPs(segment,seq_imputed,seq_original,out_archaicnew)
                         
                     #We look at a random non introgressed region
-                    offset = random.randint(-10000000, 10000000)
+                    offset = random.randint(-10_000_000, 10_000_000)
                     t=[segment[0]+offset,segment[1]+offset]
 
                     while t[0]<= seq_imputed[0][0] or t[1] >= seq_imputed[0][-1] or look_for_close_match(t,segments_imputed[filename],10_000) \
                         or  look_for_close_match(t,segments_original[filename],10_000):
-                        offset = random.randint(-10000000, 10000000)
+                        offset = random.randint(-10_000_000, 10_000_000)
                         t = [segment[0]+offset,segment[1]+offset]
 
                     compare_all_SNPs(t,seq_imputed,seq_original,out_nonintrogressed)
@@ -261,62 +263,115 @@ def imputation_quality_archaic_segments():
 
 
 if __name__ == "__main__":
+    '''
+    If pickledArchaic and pickledOutgroup have not been created through the LAI script, run first:
+
+        imputationAccuracy.py --read-vcf-archaic  --myfile *name_vcf_archaic*.vcf.gz 
+        imputationAccuracy.py --read-outgroup  --directory *name of the directory containing the outgroup vcfs*
+
+        Notes:
+        --read-vcf-archaic assumes that the vcf given as input contains all chromosomes.
+        If multiple archaic individuals are in the same vcf, all the archaic individuals will be separately used to define archaic SNPs
+        It is possible to run the command multiple time if different archaic individuals are present in different vcfs
+
+        The outgroup is used to define archaic SNPs
+        The name of the outgroup vcf is hardcoded in the script and can be directly downloaded from:
+        https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
+        It is assumed that the directory given as input for --read-outgroup contains those files
+        The name of the african samples to be extracted from these vcf are also directly written in utils.py
+        It is possible to change these to use a different outgroup. 
+
+        The output directory will be created at ../out
+
+    Then for each coverage, run:
+
+        imputationAccuracy.py --read-vcf  --file *name_vcf_sample*.vcf.gz --coverage *name of the dataset (coverage)*
+
+        --read-vcf assumes that the vcf given as input contains all chromosomes.
+        If multiple individuals are in the same vcf, the imputation accuracy will be computed for all individuals
+        It is possible to run the command multiple time for the same coverage if different individuals are present in different vcfs
+        <!> For the non imputed dataset (which will serve as a reference to compute imputation accuracy), the coverage should be exactly named "original"
+        <!> For each coverage the same individual should have the same name, if not either rename it first in the vcf or the output files in ../out/pickledData/*name of the dataset (coverage)*
+
+    Finally, run:
+
+        imputationAccuracy.py --imputation-quality-archaic-snps --coverage *name of the dataset (coverage)* --chrom *chromosome*
+
+        The output files will be in '../out/concordance/{coverage}/archaic' and '../out/concordance/{coverage}/nonArchaic'
+        The first folder contains imputation accuracy for archaic SNPs, the second for non archaic SNPs
+
+    '''
     parser = argparse.ArgumentParser(description="")
 
-    parser.add_argument("--script", type=str, required=True, #Change this in multiple options
-                        choices=["imputationQualityArchaicSegments", "imputationQualityArchaicSNPs","readVcfArchaic,readVcf,readOutgroup"],
-                        help="imputationQualityArchaicSegments: compute the imputation quality depending if a SNP is in introgressed segment or not.\
-                            imputationQualityArchaicSNPs: compute the imputation quality depending if a SNP is archaic or not.\
-                                readVcfArchaic: Enable reading archaic VCF file.\
-                                    readVcf: Enable reading ancient sample VCF file.\
-                                        readOutgroup: Enable reading outgroup data.")
-    parser.add_argument("--path_map", type=str, required=True,
+    parser.add_argument('--read-vcf-archaic', action='store_true', help='Enable reading archaic VCF file.')
+    parser.add_argument('--read-vcf', action='store_true', help='Enable reading sample VCF file with RAF and GP.')
+    parser.add_argument('--read-outgroup', action='store_true', help='Enable reading outgroup data.')
+    parser.add_argument('--imputation-quality-archaic-segments', action='store_true', help='Compute the imputation quality depending if a SNP is in introgressed segment or not.')
+    parser.add_argument('--imputation-quality-archaic-snps', action='store_true', help='Compute the imputation quality depending if a SNP is archaic or not.')
+
+    parser.add_argument("--path_map", type=str, required=False,
                         help="path to the introgression map download from: FILL")
 
-    parser.add_argument("--coverage", type=str, required=True,
-                        choices=["imputedOC", "2X","1X","0.5X","0.0625X"],
-                        help="runs the imputation quality analysis for the selected coverage")
-    parser.add_argument("--chrom", type=str, required=True,
+    parser.add_argument('--coverage', required=False, help='Name of the dataset (used to store output files)\
+                        Important: if this is the non imputed reference dataset, call it "original"')
+
+    parser.add_argument("--chrom", type=str, required=False,
                         choices=[str(i) for i in range(1, 23)],
                         help="runs the imputation quality analysis for the selected chromosome")
-    parser.add_argument('--myfile', required=False, help='Path to input VCF file')
+    parser.add_argument('--file', required=False, help='Path to input VCF file')
+    parser.add_argument('--directory', required=False, help='Directory containing input VCF files')
+
 
     args = parser.parse_args()
 
 
-    if args.myfile is None:
+    if args.file is None:
         pass
     else:
-        myfile = args.myfile
+        file = args.file
 
     if args.coverage is None:
         pass
     else:
         coverage = args.coverage
-        
 
-    if args.script == "imputationQualityArchaicSegments":
+    if args.directory is None:
+        pass
+    else:
+        directory = args.directory
+
+
+    if args.imputation_quality_archaic_segments:
         imputation_quality_archaic_segments()
-    elif args.script == "imputationQualityArchaicSNPs":
+    elif args.imputation_quality_archaic_snps:
         imputation_quality_archaic_SNPs()
-    elif args.script == "readVcfArchaic":
-        chrom = int(args.chrom)
-        res = utils.read_vcf(myfile,chrom)
-        for i,ind in enumerate(res[1]):
-            filehandler = open(f'pickledArchaic/chr{chrom}/{ind}',"wb")
-            pickle.dump(res[0][i],filehandler)
-            filehandler.close()
-    elif args.script == "readVcf":
+    elif args.read_vcf_archaic:
         for chrom in range(1,23):
-            res = utils.read_vcf_raf_gp(myfile,chrom)
+            res = utils.read_vcf(file,chrom)
             for i,ind in enumerate(res[1]):
-                filehandler = open(f'pickledData/{coverage}/chr{chrom}/{ind}',"wb")
+                path = Path(f'../out/pickledArchaic/chr{chrom}')
+                path.mkdir(parents=True, exist_ok=True)
+                filehandler = open(f'../out/pickledArchaic/chr{chrom}/{ind}',"wb")
                 pickle.dump(res[0][i],filehandler)
                 filehandler.close()
-    elif args.script == "readOutgroup":
+    elif args.read_vcf:
         for chrom in range(1,23):
-            res = utils.read_vcf_sum(f'ALL.chr{chrom}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz',chrom)
-            filehandler = open(f'pickledAfricans/chr{chrom}/outgroup',"wb")
+            if coverage == 'original':
+                res = utils.read_vcf(file,chrom)
+            else:
+                res = utils.read_vcf_raf_gp(file,chrom)
+            for i,ind in enumerate(res[1]):
+                path = Path(f'../out/pickledData/{coverage}/chr{chrom}')
+                path.mkdir(parents=True, exist_ok=True)
+                filehandler = open(f'../out/pickledData/{coverage}/chr{chrom}/{ind}',"wb")
+                pickle.dump(res[0][i],filehandler)
+                filehandler.close()
+    elif args.read_outgroup:
+        for chrom in range(1,23):
+            res = utils.read_vcf_sum(f'{directory}/ALL.chr{chrom}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz',chrom)
+            path = Path(f'../out/pickledAfricans/chr{chrom}')
+            path.mkdir(parents=True, exist_ok=True)
+            filehandler = open(f'../out/pickledAfricans/chr{chrom}/outgroup',"wb")
             pickle.dump(res,filehandler)
             filehandler.close()
 
