@@ -107,7 +107,9 @@ The output directory will be created at ```../out``` and the maps will be in ```
 
 The output will be one map per individual and per chromosome, it is possible to merge these maps using:
 
-```main.py --merge-maps --name-dataset *name of the dataset*```
+```
+main.py --merge-maps --name-dataset *name of the dataset*
+```
 
 Then the maps will be in ```../out/maps/*name of the dataset*/merged```
 
@@ -131,11 +133,15 @@ imputationAccuracy.py --read-outgroup  --directory *name of the directory contai
 This script assumes that we have the same data for at least two coverages, the original one and the (imputed) downsampled.
 For each coverage, run:
 
-```imputationAccuracy.py --read-vcf  --file *name_vcf_sample*.vcf.gz --coverage *name of the dataset (coverage)*  ```
+```
+imputationAccuracy.py --read-vcf  --file *name_vcf_sample*.vcf.gz --coverage *name of the dataset (coverage)*
+```
 
 Finally, run:
 
-```imputationAccuracy.py --imputation-quality-archaic-snps --coverage *name of the dataset (coverage)* --chrom *chromosome*```
+```
+imputationAccuracy.py --imputation-quality-archaic-snps --coverage *name of the dataset (coverage)* --chrom *chromosome*
+```
 
     
 #### Notes:
