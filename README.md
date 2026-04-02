@@ -65,43 +65,55 @@ To identify the introgression segments in each individual and coverage we used a
 
 As described in the script, we first convert all the vcf files in a pickle file format, we then run the hmm function to determine the introgressed segments and compute similarities to reference archaic genomes.
 
-The script is not intended to be run as a standalone program; it is designed as part of a larger analysis pipeline where the pickle format allows to speedup the process of multiple experiments.
+The script is not intended to be run as a standalone program, it is designed as part of a larger analysis pipeline where the pickle format allows to speedup the process of multiple experiments.
 
-In order to generate the map, the script should be launched as such:
+In order to generate the maps, the script should be launched as such: 
 ```
-main.py --read-vcf-archaic  --myfile *name_vcf_archaic*.vcf.gz
-main.py --read-vcf  --myfile *name_vcf_sample*.vcf.gz --name_dataset *name of the dataset*
-main.py --read-outgroup
-main.py --run-hmm --name_dataset *name of the dataset* --chrom *chromosome number*
+main.py --read-vcf-archaic  --myfile *name_vcf_archaic*.vcf.gz 
+main.py --read-vcf  --file *name_vcf_sample*.vcf.gz --name_dataset *name of the dataset*
+main.py --read-outgroup  --directory *name of the directory containing the outgroup vcfs*
+main.py --run-hmm --name-dataset *name of the dataset* --chrom *chromosome number* 
 ```
 
-Notes:
+#### Notes:
 
-The name of the outgroup vcf is hardcoded in the script and can be directly downloaded from: https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
+#### Archaic vcf  processing
+```--read-vcf-archaic``` assumes that the vcf given as input contains all chromosomes.
+
+If multiple archaic individuals are in the same vcf, all the statistics (similarity, archaic snps) will be computed for all archaic individuals.
+
+It is possible to run the command multiple time if different archaic individuals are present in different vcfs.
+
+#### Target data vcf processing
+```--read-vcf``` assumes that the vcf given as input contains all chromosomes.
+
+If multiple individuals are in the same vcf, all the archaic segments and statistics will be computed for all individuals.
+
+It is possible to run the command multiple time if different individuals are present in different vcfs.
+
+#### Outgroup vcf processing
+The name of the outgroup vcfs is hardcoded in the script and the files (one per chromosome) can be directly downloaded from:
+
+https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
+
+It is assumed that the directory given as input for ```--read-outgroup``` contains those files.
 
 The name of the african samples to be extracted from these vcf are also directly written in utils.py
 
 It is possible to change these to use a different outgroup.
 
-This script does not create the output directories, before running it make sure they exist, in particular: 
-
-```
-mkdir pickledArchaic
-for i in {1..22}; do mkdir pickledArchaic/chr${i}; done
-mkdir pickledAfricans
-for i in {1..22}; do mkdir pickledAfricans/chr${i}; done
-mkdir pickledData
-mkdir pickledData/*name dataset*
-for i in {1..22}; do mkdir pickledData/*name dataset*/chr${i}; done
-mkdir maps
-mkdir maps/*name dataset*
-for i in {1..22}; do mkdir maps/*name dataset*/chr${i}; done
-```
+#### Output
+The output directory will be created at ```../out``` and the maps will be in ```../out/maps/*name of the dataset*```
 
 The output will be one map per individual and per chromosome, it is possible to merge these maps using:
-```
-main.py --merge-maps --name_dataset *name of the dataset*
-```
+
+```main.py --merge-maps --name-dataset *name of the dataset*```
+
+Then the maps will be in ```../out/maps/*name of the dataset*/merged```
+
+The field ```--name-dataset``` is simply required to name output directories.
+
+Only .vcf.gz format is supported (not .bcf), it is assumed that the chromosome field is an integer (e.g. ```1``` and not ```chr1```)
 
 ### Demo version of the D-statistic script
 
