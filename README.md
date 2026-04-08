@@ -69,7 +69,7 @@ The script is not intended to be run as a standalone program, it is designed as 
 
 In order to generate the maps, the script should be launched as such: 
 ```
-main.py --read-vcf-archaic  --myfile *name_vcf_archaic*.vcf.gz 
+main.py --read-vcf-archaic  --file *name_vcf_archaic*.vcf.gz 
 main.py --read-vcf  --file *name_vcf_sample*.vcf.gz --name_dataset *name of the dataset*
 main.py --read-outgroup  --directory *name of the directory containing the outgroup vcfs*
 main.py --run-hmm --name-dataset *name of the dataset* --chrom *chromosome number* 
@@ -126,7 +126,7 @@ As described in the script, we first convert all the vcf files in a pickle file 
 If ```pickledArchaic``` and ```pickledOutgroup``` folders (and files) have not been created through the LAI script, first run:
 
 ```
-imputationAccuracy.py --read-vcf-archaic  --myfile *name_vcf_archaic*.vcf.gz 
+imputationAccuracy.py --read-vcf-archaic  --file *name_vcf_archaic*.vcf.gz 
 imputationAccuracy.py --read-outgroup  --directory *name of the directory containing the outgroup vcfs*
 ```
 
