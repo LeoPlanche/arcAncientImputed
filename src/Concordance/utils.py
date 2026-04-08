@@ -57,7 +57,7 @@ def read_vcf(nameFile,chrom):
 
     return [res,list_ind]
 
-def read_vsf_sum(nameFile,chr):
+def read_vcf_sum(nameFile,chr):
     f = gzip.open(nameFile, 'rt')
     var = []
     var.append([])
