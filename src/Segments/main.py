@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description="Control options for processing gen
 ''' 
 In order to generates the map, the script should be launched as such: 
 main.py --read-vcf-archaic  --myfile *name_vcf_archaic*.vcf.gz 
-main.py --read-vcf  --file *name_vcf_sample*.vcf.gz --name_dataset *name of the dataset*
+main.py --read-vcf  --file *name_vcf_sample*.vcf.gz --name-dataset *name of the dataset*
 main.py --read-outgroup  --directory *name of the directory containing the outgroup vcfs*
 main.py --run-hmm --name-dataset *name of the dataset* --chrom *chromosome number* 
 
