@@ -113,11 +113,16 @@ def get_HMM_tracts(seq):
     migrating_tracts[seq[len(seq)-1]].append([start,len(seq)-1])
     return migrating_tracts
 
-def write_tracts(file, tracts, chr, filename, similarity_neanderthal,similarity_altai,similarity_cha, similarity_denisova\
-                ,snps_archaic, snps_neanderthal, snps_altai, snps_cha, snps_denisova):
-    for tract, sim_nean, sim_altai, sim_cha, sim_deni, snp_arc, snp_nean, snp_altai, snp_cha, snp_deni\
-          in zip(tracts,similarity_neanderthal,similarity_altai,similarity_cha,similarity_denisova,\
-                 snps_archaic, snps_neanderthal, snps_altai, snps_cha, snps_denisova):
-        file.write(f"chr{chr}\t{tract[0]*1000}\t{tract[1]*1000}\t{sim_nean}\t{sim_altai}\t{sim_cha}\t{sim_deni}\t{snp_arc}\t{snp_nean}\t{snp_altai}\t{snp_cha}\t{snp_deni}\t{filename}\n")
+def write_tracts(file, tracts, chr, archaic_individuals_names, similarity,snps_archaic, snps):
+ 
+    for i, tract in enumerate(tracts):
+        output = f'chr{chr}\t{tract[0]*1000}\t{tract[1]*1000}'
+        for _, ind  in enumerate(archaic_individuals_names):
+            output += f'\t{similarity[ind][i]}'
+        output += f'\t{snps_archaic[i]}'
+        for _, ind  in enumerate(archaic_individuals_names):
+            output += f'\t{snps[ind][i]}'
+        output += '\n'
+        file.write(output)
     file.flush()
     file.close() 
